@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -6,12 +7,27 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- 轮播相册 -->
+  <div class="carousel">
+    <div class="carousel-images">
+      <img src="photo1.jpg" alt="Slide 1">
+      <img src="photo2.jpg" alt="Slide 2">
+      <img src="photo3.jpg" alt="Slide 3">
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
   <div class="container">
     
     <!-- 左栏 -->
     <div class="column left">
       <p>I am a PhD student in the philosophy department at Peking University, currently visiting the Department of Linguistics and Philosophy at MIT. I mostly write about philosophy of mind and philosophy of perception. I'm currently working on my dissertation.</p>
     </div>
+
+    <!-- 中间栏 -->
+    <div class="column center">
 
       <!-- 出版物 -->
       <section>
@@ -29,56 +45,58 @@
         <p>2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>. AAP, Perth.</p>
         <p>2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>. Chinese Academy of Sciences, Beijing.</p>
       </section>
+
+      <!-- 课程 -->
+      <section>
+        <h2>Graduate Coursework</h2>
+        <ul>
+          <li>Good Food: The Ethics & Politics of Food* – Spring 2025, MIT</li>
+          <li>Minds and Machines* – Spring 2025, MIT</li>
+          <li>The Problems of Philosophy* – Spring 2025, MIT</li>
+          <li>Ethics of Technology* – Spring 2025, MIT</li>
+          <li>Philosophy: Research and Writing* – Fall 2024, Peking University</li>
+          <li>Philosophy: Research and Writing* – Spring 2024, Peking University</li>
+          <li>Epistemology* – Spring 2024, Peking University</li>
+          <li>Selected Reading of Medieval Philosophy – Spring 2023, Peking University</li>
+          <li>Philosophy: Research and Writing – Spring 2023, Peking University</li>
+          <li>Phenomenology and Ethics – Spring 2023, Peking University</li>
+          <li>Philosophy of Language – Fall 2022, Peking University</li>
+          <li>Philosophical Methods – Fall 2022, Peking University</li>
+          <li>Philosophy of Mind – Fall 2021, Shandong University</li>
+          <li>Proseminar – Fall 2021, Shandong University</li>
+          <li>Philosophy of Cognitive Science – Fall 2021, Shandong University</li>
+          <li>Logic and Philosophy – Fall 2021, Shandong University</li>
+          <li>Logic and Language – Spring 2020, Shandong University</li>
+          <li>Philosophy of Science – Spring 2020, Shandong University</li>
+        </ul>
+        <p><small>* indicates auditor status</small></p>
+      </section>
+
+      <!-- 教学经历 -->
+      <section>
+        <h2>Teaching Experience</h2>
+        <ul>
+          <li>Teaching Assistant, “Epistemology” – Fall 2024, Peking University</li>
+          <li>Teaching Assistant, “Epistemology” – Spring 2024, Peking University</li>
+          <li>Teaching Assistant, “Introduction to Philosophy” – Fall 2023, Peking University</li>
+          <li>Teaching Assistant, “Introduction to Philosophy” – Fall 2022, Peking University</li>
+          <li>Teaching Assistant, “Applied Logic” – Fall 2021, Shandong University</li>
+          <li>Teaching Assistant, “Applied Logic” – Fall 2020, Shandong University</li>
+        </ul>
+      </section>
+
+      <!-- 奖项 -->
+      <section>
+        <h2>Awards and Fellowships</h2>
+        <ul>
+          <li>Peking University Presidential Scholarship – 2024</li>
+          <li>Peking University International Study Grant – 2024</li>
+          <li>Graduate Student Stipend, Pacific APA – 2024</li>
+          <li>Graduate Student Stipend, Central APA – 2024</li>
+          <li>Travel Stipend, Eastern APA – 2024</li>
+        </ul>
+      </section>
     </div>
-
-    <!-- 中间栏内容继续 -->
-<section>
-  <h2>Graduate Coursework</h2>
-  <ul>
-    <li>Good Food: The Ethics & Politics of Food* – Spring 2025, MIT</li>
-    <li>Minds and Machines* – Spring 2025, MIT</li>
-    <li>The Problems of Philosophy* – Spring 2025, MIT</li>
-    <li>Ethics of Technology* – Spring 2025, MIT</li>
-    <li>Philosophy: Research and Writing* – Fall 2024, Peking University</li>
-    <li>Philosophy: Research and Writing* – Spring 2024, Peking University</li>
-    <li>Epistemology* – Spring 2024, Peking University</li>
-    <li>Selected Reading of Medieval Philosophy – Spring 2023, Peking University</li>
-    <li>Philosophy: Research and Writing – Spring 2023, Peking University</li>
-    <li>Phenomenology and Ethics – Spring 2023, Peking University</li>
-    <li>Philosophy of Language – Fall 2022, Peking University</li>
-    <li>Philosophical Methods – Fall 2022, Peking University</li>
-    <li>Philosophy of Mind – Fall 2021, Shandong University</li>
-    <li>Proseminar – Fall 2021, Shandong University</li>
-    <li>Philosophy of Cognitive Science – Fall 2021, Shandong University</li>
-    <li>Logic and Philosophy – Fall 2021, Shandong University</li>
-    <li>Logic and Language – Spring 2020, Shandong University</li>
-    <li>Philosophy of Science – Spring 2020, Shandong University</li>
-  </ul>
-  <p><small>* indicates auditor status</small></p>
-</section>
-
-<section>
-  <h2>Teaching Experience</h2>
-  <ul>
-    <li>Teaching Assistant, “Epistemology” – Fall 2024, Peking University</li>
-    <li>Teaching Assistant, “Epistemology” – Spring 2024, Peking University</li>
-    <li>Teaching Assistant, “Introduction to Philosophy” – Fall 2023, Peking University</li>
-    <li>Teaching Assistant, “Introduction to Philosophy” – Fall 2022, Peking University</li>
-    <li>Teaching Assistant, “Applied Logic” – Fall 2021, Shandong University</li>
-    <li>Teaching Assistant, “Applied Logic” – Fall 2020, Shandong University</li>
-  </ul>
-</section>
-
-<section>
-  <h2>Awards and Fellowships</h2>
-  <ul>
-    <li>Peking University Presidential Scholarship – 2024</li>
-    <li>Peking University International Study Grant – 2024</li>
-    <li>Graduate Student Stipend, Pacific APA – 2024</li>
-    <li>Graduate Student Stipend, Central APA – 2024</li>
-    <li>Travel Stipend, Eastern APA – 2024</li>
-  </ul>
-</section>
 
     <!-- 右栏 -->
     <div class="column right">
@@ -95,5 +113,24 @@
       </p>
     </div>
   </div>
+
+  <!-- JavaScript for carousel -->
+  <script>
+    let index = 0;
+    const images = document.querySelector('.carousel-images');
+    const totalSlides = images.children.length;
+
+    function showSlide(i) {
+      index = (i + totalSlides) % totalSlides;
+      images.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    document.querySelector('.prev').addEventListener('click', () => showSlide(index - 1));
+    document.querySelector('.next').addEventListener('click', () => showSlide(index + 1));
+
+    setInterval(() => {
+      showSlide(index + 1);
+    }, 5000);
+  </script>
 </body>
 </html>

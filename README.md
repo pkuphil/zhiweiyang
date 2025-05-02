@@ -1,39 +1,53 @@
-# 杨嘉的学术博客
+# JANE FRIEDMAN : CV
 
-本项目是基于 [Jekyll](https://jekyllrb.com/) 构建的静态博客网站，部署于 GitHub Pages，用于展示我的学术研究进展、论文发表、会议演讲及访学经历等。
+## 🏠 About Me
 
-> 📍 本博客采用 GitHub Pages 托管  
-> 🌐 在线访问地址：[https://你的用户名.github.io/你的仓库名/](https://你的用户名.github.io/你的仓库名/) （部署后生效）
-
----
-
-## 🧠 内容简介
-
-- 💭 研究方向：心灵哲学、知觉哲学、意识研究
-- 📝 毕业论文：意识表征与溢出现象（初稿完成，正在修订）
-- 📚 学术成果：
-  - 多篇论文发表于 *Synthese*, *Philosophical Studies*, *Analysis* 等
-  - 多次在 APA、AAP 等会议报告研究进展
-- 🌎 境外访学：麻省理工学院语言与哲学系（2024.12–2025.11）
+I am an associate professor in the [philosophy department](https://as.nyu.edu/philosophy.html) at [NYU](https://www.nyu.edu/).  
+I mostly write about epistemology. I'm currently working on a book about inquiry.
 
 ---
 
-## 🛠 技术说明
+## ⚙️ Selected Publications
 
-本项目基于：
+**Forthcoming**
 
-- [Jekyll](https://jekyllrb.com/)
-- GitHub Pages
-- Markdown 撰写文章内容
-- 默认主题：Minima（可自行替换）
+- [Zetetic Epistemology](https://example.com). In *Towards an Expansive Epistemology: Norms, Action, and the Social Sphere*. Eds. Baron Reed & A. K. Flowerree.
+- [Inquiry in Epistemology: Doxastic Attitudes as Zetetic Attitudes](https://example.com). In *The Blackwell Companion to Epistemology*, 3rd ed.
 
-### 🔧 本地运行方法
+**2024**
 
-如需在本地预览本博客：
+- [The Aim of Inquiry?](https://onlinelibrary.wiley.com) *Philosophy and Phenomenological Research*. [Wiley]  
+- [Suspension of Judgment is a Question-Directed Attitude](https://example.com). *Contemporary Debates in Epistemology*, 3rd ed.
 
-1. 安装 Ruby 和 Bundler
-2. 运行以下命令：
+**2022**
 
-```bash
-bundle install
-bundle exec jekyll serve
+- [Committed Neutrality in The Rational Mind](https://academic.oup.com/analysis). *Analysis*. [OUP]  
+  (Critical notice of Scott Sturgeon’s *The Rational Mind*)
+
+**2020**
+
+- [The Epistemic and the Zetetic](https://dukeupress.edu). *The Philosophical Review*. [Duke UP]  
+  (Reprinted in *The Philosopher’s Annual*)
+
+**2019**
+
+- [Checking Again](https://onlinelibrary.wiley.com). *Philosophical Issues*. [Wiley]  
+- [Teleological Epistemology](https://link.springer.com). *Philosophical Studies*. [Springer]  
+- [Inquiry and Belief](https://onlinelibrary.wiley.com). *Noûs*. [Wiley]
+
+**2018**
+
+- [Junk Beliefs and Interest-Driven Epistemology](https://onlinelibrary.wiley.com). *Philosophy and Phenomenological Research*. [Wiley]
+
+---
+
+## 💬 Contact
+
+**Department of Philosophy**  
+New York University  
+5 Washington Place  
+New York, NY 10003  
+Office: 606 / +1 212-998-3547  
+
+📧 jane.friedman [at] nyu.edu  
+📧 friedman.jane [at] gmail.com

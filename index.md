@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -10,8 +10,8 @@
   <div class="container">
     <!-- 左栏 -->
     <div class="column left">
-      <div class="icon">🏠</div>
-      <p>...</p>
+      <div class="icon"> </div>
+      <p></p>
       <p>I am an associate professor in the <a href="#">philosophy department</a> at <a href="#">NYU</a>. I mostly write about epistemology. I'm currently working on a book about inquiry.</p>
     </div>
 

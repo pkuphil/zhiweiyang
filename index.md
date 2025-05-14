@@ -26,7 +26,7 @@
       <section>
         <h2>Publications</h2>
         <p>
-          forth. <a href="#">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>.
+          forth. <a href="https://philpapers.org/archive/YANIRP.pdf">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>.
         </p>
       </section>
 

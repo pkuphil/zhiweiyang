@@ -11,17 +11,6 @@
   ⚠️ This webpage is currently under construction.
 </div>
 
-  <!-- Image Carousel -->
-  <div class="carousel">
-    <div class="carousel-images">
-      <img src="photo1.jpg" alt="Slide 1">
-      <img src="photo2.jpg" alt="Slide 2">
-      <img src="photo3.jpg" alt="Slide 3">
-    </div>
-    <button class="prev">&#10094;</button>
-    <button class="next">&#10095;</button>
-  </div>
-
   <div class="container">
     
     <!-- Left Column: Bio -->

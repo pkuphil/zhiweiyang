@@ -65,7 +65,7 @@
     <aside class="column right">
       <h2>Contact</h2>
       <p>
-        <a href="mailto:allenminesky@gmail.edu">allenminesky@gmail.edu</a><br>
+        <a href="mailto:allenminesky@gmail.edu">allenminesky@gmail.com</a><br>
         <a href="mailto:yangjia@mit.edu">yangjia@mit.edu</a>
       </p>
     </aside>

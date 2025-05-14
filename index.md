@@ -55,7 +55,20 @@
         <p>2024.04 – <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Chinese Academy of Sciences, Beijing.</p>
       </section>
 
-      <!-- Graduate Coursework -->
+      <!-- Teaching Experience -->
+      <section>
+        <h2>Teaching Experience</h2>
+        <ul>
+          <li>Teaching Assistant, “Epistemology” – Fall 2024, Peking University</li>
+          <li>Teaching Assistant, “Epistemology” – Spring 2024, Peking University</li>
+          <li>Teaching Assistant, “Introduction to Philosophy” – Fall 2023, Peking University</li>
+          <li>Teaching Assistant, “Introduction to Philosophy” – Fall 2022, Peking University</li>
+          <li>Teaching Assistant, “Applied Logic” – Fall 2021, Shandong University</li>
+          <li>Teaching Assistant, “Applied Logic” – Fall 2020, Shandong University</li>
+        </ul>
+      </section>
+
+    <!-- Graduate Coursework -->
       <section>
         <h2>Graduate Coursework <small>(* indicates auditor status)</small></h2>
         <ul>
@@ -77,19 +90,6 @@
           <li>Logic and Philosophy – Fall 2021, Shandong University</li>
           <li>Logic and Language – Spring 2020, Shandong University</li>
           <li>Philosophy of Science – Spring 2020, Shandong University</li>
-        </ul>
-      </section>
-
-      <!-- Teaching Experience -->
-      <section>
-        <h2>Teaching Experience</h2>
-        <ul>
-          <li>Teaching Assistant, “Epistemology” – Fall 2024, Peking University</li>
-          <li>Teaching Assistant, “Epistemology” – Spring 2024, Peking University</li>
-          <li>Teaching Assistant, “Introduction to Philosophy” – Fall 2023, Peking University</li>
-          <li>Teaching Assistant, “Introduction to Philosophy” – Fall 2022, Peking University</li>
-          <li>Teaching Assistant, “Applied Logic” – Fall 2021, Shandong University</li>
-          <li>Teaching Assistant, “Applied Logic” – Fall 2020, Shandong University</li>
         </ul>
       </section>
 

@@ -63,7 +63,6 @@
         Peking University<br>
         550 Memorial Drive<br>
         Cambridge, MA 02136<br>
-        Contact: +1 617-233-3173
       </p>
       <p>
         <a href="mailto:allenminesky@gmail.edu">allenminesky@gmail.edu</a><br>

@@ -8,7 +8,7 @@
 </head>
 <body>
 
-  <!-- 轮播相册 -->
+  <!-- Image Carousel -->
   <div class="carousel">
     <div class="carousel-images">
       <img src="photo1.jpg" alt="Slide 1">
@@ -21,34 +21,41 @@
 
   <div class="container">
     
-    <!-- 左栏 -->
-    <div class="column left">
-      <p>I am a PhD student in the philosophy department at Peking University, currently visiting the Department of Linguistics and Philosophy at MIT. I mostly write about philosophy of mind and philosophy of perception. I'm currently working on my dissertation.</p>
-    </div>
+    <!-- Left Column: Bio -->
+    <aside class="column left">
+      <p>
+        I am a PhD student in the Department of Philosophy at Peking University,
+        currently a visiting student at the Department of Linguistics and Philosophy at MIT.
+        My research focuses on the philosophy of mind and perception. I am currently working on my dissertation.
+      </p>
+    </aside>
 
-    <!-- 中间栏 -->
-    <div class="column center">
+    <!-- Center Column: Main Content -->
+    <main class="column center">
 
-      <!-- 出版物 -->
+      <!-- Publications -->
       <section>
         <h2>Publications</h2>
-        <p>forth. <a href="#">Is Rich Phenomenology Fragmented?</a>. Synthese. <span class="source">[Wiley]</span></p>
+        <p>
+          Forthcoming. <a href="#">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>.
+          <span class="source">[Wiley]</span>
+        </p>
       </section>
 
-      <!-- 会议演讲 -->
+      <!-- Conference Presentations -->
       <section>
         <h2>Conference Presentations</h2>
-        <p>2025.07. <a href="#">Is Rich Phenomenology Fragmented?</a>. CoRN, Bangkok. <span class="source">[forthcoming]</span></p>
-        <p>2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>. Pacific APA, San Francisco.</p>
-        <p>2025.02. <a href="#">Is Rich Phenomenology Fragmented?</a>. Central APA, Online.</p>
-        <p>2025.01. <a href="#">Do Semantics Include Future Properties?</a>. Eastern APA, New York.</p>
-        <p>2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>. AAP, Perth.</p>
-        <p>2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>. Chinese Academy of Sciences, Beijing.</p>
+        <p>2025.07 – <a href="#">Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok. <span class="source">[forthcoming]</span></p>
+        <p>2025.04 – <a href="#">Do Semantic Properties Involve the Future?</a>, Pacific APA, San Francisco.</p>
+        <p>2025.02 – <a href="#">Is Rich Phenomenology Fragmented?</a>, Central APA, Online.</p>
+        <p>2025.01 – <a href="#">Do Semantics Include Future Properties?</a>, Eastern APA, New York.</p>
+        <p>2024.07 – <a href="#">Methodological Challenges in Consciousness Concept Research</a>, AAP, Perth.</p>
+        <p>2024.04 – <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Chinese Academy of Sciences, Beijing.</p>
       </section>
 
-      <!-- 课程 -->
+      <!-- Graduate Coursework -->
       <section>
-        <h2>Graduate Coursework</h2>
+        <h2>Graduate Coursework <small>(* indicates auditor status)</small></h2>
         <ul>
           <li>Good Food: The Ethics & Politics of Food* – Spring 2025, MIT</li>
           <li>Minds and Machines* – Spring 2025, MIT</li>
@@ -69,10 +76,9 @@
           <li>Logic and Language – Spring 2020, Shandong University</li>
           <li>Philosophy of Science – Spring 2020, Shandong University</li>
         </ul>
-        <p><small>* indicates auditor status</small></p>
       </section>
 
-      <!-- 教学经历 -->
+      <!-- Teaching Experience -->
       <section>
         <h2>Teaching Experience</h2>
         <ul>
@@ -85,7 +91,7 @@
         </ul>
       </section>
 
-      <!-- 奖项 -->
+      <!-- Awards and Fellowships -->
       <section>
         <h2>Awards and Fellowships</h2>
         <ul>
@@ -96,25 +102,26 @@
           <li>Travel Stipend, Eastern APA – 2024</li>
         </ul>
       </section>
-    </div>
+    </main>
 
-    <!-- 右栏 -->
-    <div class="column right">
+    <!-- Right Column: Contact Info -->
+    <aside class="column right">
       <h2>Contact</h2>
-      <p>Department of Philosophy<br>
+      <p>
+        Department of Philosophy<br>
         Peking University<br>
         550 Memorial Drive<br>
         Cambridge, MA 02136<br>
-        Office: +1 6172333173
+        Office: +1 617-233-3173
       </p>
       <p>
         <a href="mailto:allenminesky@gmail.edu">allenminesky@gmail.edu</a><br>
         <a href="mailto:yangjia@mit.edu">yangjia@mit.edu</a>
       </p>
-    </div>
+    </aside>
   </div>
 
-  <!-- JavaScript for carousel -->
+  <!-- JavaScript for Carousel -->
   <script>
     let index = 0;
     const images = document.querySelector('.carousel-images');

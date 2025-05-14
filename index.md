@@ -49,22 +49,3 @@
         <a href="mailto:yangjia@mit.edu">yangjia@mit.edu</a>
       </p>
     </aside>
-
-  <!-- JavaScript for Carousel -->
-  <script>
-    let index = 0;
-    const images = document.querySelector('.carousel-images');
-    const totalSlides = images.children.length;
-
-    function showSlide(i) {
-      index = (i + totalSlides) % totalSlides;
-      images.style.transform = `translateX(-${index * 100}%)`;
-    }
-
-    document.querySelector('.prev').addEventListener('click', () => showSlide(index - 1));
-    document.querySelector('.next').addEventListener('click', () => showSlide(index + 1));
-
-    setInterval(() => {
-      showSlide(index + 1);
-    }, 5000);
-  </script>

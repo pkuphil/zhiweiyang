@@ -55,32 +55,6 @@
         <p>2024.04 – <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Chinese Academy of Sciences, Beijing.</p>
       </section>
 
-      <!-- Teaching Experience -->
-      <section>
-        <h2>Teaching Experience</h2>
-        <ul>
-          <li>Teaching Assistant, “Epistemology” – Fall 2024, Peking University</li>
-          <li>Teaching Assistant, “Epistemology” – Spring 2024, Peking University</li>
-          <li>Teaching Assistant, “Introduction to Philosophy” – Fall 2023, Peking University</li>
-          <li>Teaching Assistant, “Introduction to Philosophy” – Fall 2022, Peking University</li>
-          <li>Teaching Assistant, “Applied Logic” – Fall 2021, Shandong University</li>
-          <li>Teaching Assistant, “Applied Logic” – Fall 2020, Shandong University</li>
-        </ul>
-      </section>
-
-      <!-- Awards and Fellowships -->
-      <section>
-        <h2>Awards and Fellowships</h2>
-        <ul>
-          <li>Peking University Presidential Scholarship – 2024</li>
-          <li>Peking University International Study Grant – 2024</li>
-          <li>Graduate Student Stipend, Pacific APA – 2024</li>
-          <li>Graduate Student Stipend, Central APA – 2024</li>
-          <li>Travel Stipend, Eastern APA – 2024</li>
-        </ul>
-      </section>
-    </main>
-
     <!-- Right Column: Contact Info -->
     <aside class="column right">
       <h2>Contact</h2>

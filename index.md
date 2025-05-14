@@ -45,12 +45,6 @@
     <aside class="column right">
       <h2>Contact</h2>
       <p>
-        Department of Philosophy<br>
-        Peking University<br>
-        550 Memorial Drive<br>
-        Cambridge, MA 02136<br>
-      </p>
-      <p>
         <a href="mailto:allenminesky@gmail.edu">allenminesky@gmail.edu</a><br>
         <a href="mailto:yangjia@mit.edu">yangjia@mit.edu</a>
       </p>

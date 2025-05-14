@@ -8,6 +8,20 @@
 </head>
 <body>
 
+.construction-banner {
+  background-color: #ffcc00;
+  color: #000;
+  text-align: center;
+  padding: 12px 0;
+  font-weight: bold;
+  font-size: 1.1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 2px solid #aaa;
+}
+
+
   <!-- 顶部轮播图 -->
   <div class="carousel">
     <div class="carousel-images">

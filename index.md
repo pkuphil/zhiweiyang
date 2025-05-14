@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<div class="construction-banner">
+  ⚠️ This webpage is currently under construction.
+</div>
 
   <!-- Image Carousel -->
   <div class="carousel">

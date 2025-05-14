@@ -27,8 +27,6 @@
     <!-- Left Column: Bio -->
     <aside class="column left">
       <p>
-        I am a PhD student in the Department of Philosophy at Peking University,
-        currently a visiting student at the Department of Linguistics and Philosophy at MIT.
         My research focuses on the philosophy of mind and perception. I am currently working on my dissertation.
       </p>
     </aside>

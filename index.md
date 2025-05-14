@@ -68,31 +68,6 @@
         </ul>
       </section>
 
-    <!-- Graduate Coursework -->
-      <section>
-        <h2>Graduate Coursework <small>(* indicates auditor status)</small></h2>
-        <ul>
-          <li>Good Food: The Ethics & Politics of Food* – Spring 2025, MIT</li>
-          <li>Minds and Machines* – Spring 2025, MIT</li>
-          <li>The Problems of Philosophy* – Spring 2025, MIT</li>
-          <li>Ethics of Technology* – Spring 2025, MIT</li>
-          <li>Philosophy: Research and Writing* – Fall 2024, Peking University</li>
-          <li>Philosophy: Research and Writing* – Spring 2024, Peking University</li>
-          <li>Epistemology* – Spring 2024, Peking University</li>
-          <li>Selected Reading of Medieval Philosophy – Spring 2023, Peking University</li>
-          <li>Philosophy: Research and Writing – Spring 2023, Peking University</li>
-          <li>Phenomenology and Ethics – Spring 2023, Peking University</li>
-          <li>Philosophy of Language – Fall 2022, Peking University</li>
-          <li>Philosophical Methods – Fall 2022, Peking University</li>
-          <li>Philosophy of Mind – Fall 2021, Shandong University</li>
-          <li>Proseminar – Fall 2021, Shandong University</li>
-          <li>Philosophy of Cognitive Science – Fall 2021, Shandong University</li>
-          <li>Logic and Philosophy – Fall 2021, Shandong University</li>
-          <li>Logic and Language – Spring 2020, Shandong University</li>
-          <li>Philosophy of Science – Spring 2020, Shandong University</li>
-        </ul>
-      </section>
-
       <!-- Awards and Fellowships -->
       <section>
         <h2>Awards and Fellowships</h2>

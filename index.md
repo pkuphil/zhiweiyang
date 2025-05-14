@@ -55,7 +55,6 @@
         <a href="mailto:yangjia@mit.edu">yangjia@mit.edu</a>
       </p>
     </aside>
-  </div>
 
   <!-- JavaScript for Carousel -->
   <script>
@@ -75,5 +74,3 @@
       showSlide(index + 1);
     }, 5000);
   </script>
-</body>
-</html>

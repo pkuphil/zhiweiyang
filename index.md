@@ -38,7 +38,6 @@
         <h2>Publications</h2>
         <p>
           Forthcoming. <a href="#">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>.
-          <span class="source">[Wiley]</span>
         </p>
       </section>
 

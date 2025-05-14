@@ -27,7 +27,7 @@
     <!-- Left Column: Bio -->
     <aside class="column left">
       <p>
-        My research focuses on the philosophy of mind and perception. I am currently working on my dissertation.
+        My research focuses on the philosophy of mind and perception. 
       </p>
     </aside>
 

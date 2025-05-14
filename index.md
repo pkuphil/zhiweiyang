@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="construction-banner" style="font-size: 24px;">
+<div class="construction-banner" style="font-size: 24px; margin-bottom: 80px;">
   ⚠️ This webpage is currently under construction.
 </div>
 

@@ -60,6 +60,15 @@
       </section>
 
     </main>
+<!-- Right Column: Language Info -->
+<aside class="column right">
+  <h2>Language</h2>
+  <p>
+    Chinese (Native)<br>
+    English (Proficient, IELTS 8.0)
+  </p>
+</aside>
+
 
     <!-- Right Column: Contact Info -->
     <aside class="column right">

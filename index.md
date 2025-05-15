@@ -51,12 +51,12 @@
       <!-- Conference Presentations -->
       <section>
         <h2>Conference Presentations</h2>
-        <p>forth. Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok. </p>
-        <p>2025.04. Do Semantic Properties Involve the Future?</a>, Pacific APA, San Francisco.</p>
-        <p>2025.02. Is Rich Phenomenology Fragmented?</a>, Central APA, Online.</p>
-        <p>2025.01. Do Semantics Include Future Properties?</a>, Eastern APA, New York.</p>
-        <p>2024.07. Methodological Challenges in Consciousness Concept Research</a>, Australasian Association of Philosophy, Perth.</p>
-        <p>2024.04. Methodological Challenges in Consciousness Concept Research</a>, Workshop for Young Scholars in Science and Philosophy, Beijing.</p>
+        <p>forth. <a href="#">Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok. </p>
+        <p>2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>, Pacific APA, San Francisco.</p>
+        <p>2025.02. <a href="#">Is Rich Phenomenology Fragmented?</a>, Central APA, Online.</p>
+        <p>2025.01. <a href="#">Do Semantics Include Future Properties?</a>, Eastern APA, New York.</p>
+        <p>2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Australasian Association of Philosophy, Perth.</p>
+        <p>2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Workshop for Young Scholars in Science and Philosophy, Beijing.</p>
       </section>
 
     </main>

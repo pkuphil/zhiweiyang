@@ -49,6 +49,7 @@
         <h2>Publications</h2>
         <p>
           forth. <a href="https://philpapers.org/archive/YANIRP.pdf">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>.
+          <p>
           forth. <a href="https://philpapers.org/archive/YANIRP.pdf">Do Semantic Properties Involve the Future?</a> <em> Australasian Journal of Philosophy</em>.
         </p>
       </section>

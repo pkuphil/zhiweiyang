@@ -73,7 +73,7 @@
   <h2>Language</h2>
   <p>
     Chinese (Native)<br>
-    English (Not bad, IELTS 8.0)
+    English (Okay, IELTS 8.0)
   </p>
 </aside>
 

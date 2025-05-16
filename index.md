@@ -48,6 +48,14 @@
         </p>
       </section>
 
+      <!-- Work In Progress -->
+      <section>
+        <h2>Work In Progress</h2>
+        <p>
+          [title redacted] (R&R).
+        </p>
+      </section>
+
       <!-- Conference Presentations -->
       <section>
         <h2>Conference Presentations</h2>

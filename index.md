@@ -24,7 +24,12 @@
 </head> 
 
 <div class="construction-banner" style="font-size: 24px; margin-bottom: 50px;">
-  <span style="color: blue;">This webpage</span> is currently <span style="color: red;">under construction</span>.
+  <span style="color: red;">This</span>
+  <span style="color: orange;">webpage</span>
+  <span style="color: yellow;">is</span>
+  <span style="color: green;">currently</span>
+  <span style="color: blue;">under</span>
+  <span style="color: purple;">construction.</span>
 </div>
 
   <div class="container">

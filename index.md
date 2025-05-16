@@ -23,10 +23,9 @@
   </style>
 </head> 
 
-<body>
-  <div class="construction-banner" style="font-size: 24px; margin-bottom: 50px;">
-    This webpage is currently under construction.
-  </div>
+<div class="construction-banner" style="font-size: 24px; margin-bottom: 50px;">
+  <span style="color: blue;">This webpage</span> is currently <span style="color: red;">under construction</span>.
+</div>
 
   <div class="container">
     

@@ -7,11 +7,11 @@
   <style>
     * {
       box-sizing: border-box;
-      margin: 0;
-      padding: 0;
     }
 
-    body {
+    html, body {
+      margin: 0;
+      padding: 0;
       font-family: 'Georgia', serif;
       overflow-x: hidden;
     }
@@ -27,28 +27,32 @@
 
     .container {
       display: flex;
-      flex-direction: row;
-      padding: 0 10px; /* 极小边距 */
+      width: 100vw;            /* 关键：强制全屏宽度 */
+      padding-left: 10px;
+      padding-right: 10px;
       gap: 20px;
-      width: 100%;
     }
 
     .left,
     .center,
     .right {
-      padding: 10px 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
 
     .left {
-      flex: 1 1 240px; /* 比例 = 1，最小宽 240px */
+      flex: 1;
+      min-width: 220px;
     }
 
     .center {
-      flex: 2 1 0; /* 比例 = 2 */
+      flex: 2;
+      min-width: 400px;
     }
 
     .right {
-      flex: 1.2 1 260px; /* 稍比左边大一点点，更平衡 */
+      flex: 1.2;
+      min-width: 250px;
     }
 
     img.profile-photo {
@@ -65,11 +69,16 @@
     @media screen and (max-width: 900px) {
       .container {
         flex-direction: column;
-        padding: 0 10px;
+        padding-left: 10px;
+        padding-right: 10px;
       }
 
       .left, .center, .right {
         width: 100%;
+      }
+
+      .center {
+        min-width: auto;
       }
     }
   </style>

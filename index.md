@@ -42,19 +42,18 @@
     }
 
     .left {
-      flex: 1;
-      min-width: 220px;
-    }
+  flex: 1 1 30%;
+  min-width: 200px;
+}
 
-    .center {
-      flex: 2;
-      min-width: 300px;
-    }
+.center {
+  flex: 0 0 40%;
+}
 
-    .right {
-      flex: 1.2;
-      min-width: 250px;
-    }
+.right {
+  flex: 1 1 30%;
+  min-width: 200px;
+}
 
     img.profile-photo {
       max-width: 100%;

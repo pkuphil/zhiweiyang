@@ -106,13 +106,13 @@ title: ""
 <body>
 
   <div class="construction-banner" style="font-size: 24px; margin: 20px; text-align: center;">
-  <span>This</span>
-  <span>webpage</span>
-  <span>is</span>
-  <span>currently</span>
-  <span>under</span>
-  <span>construction</span>
-</div>
+    <span>This</span>
+    <span>webpage</span>
+    <span>is</span>
+    <span>currently</span>
+    <span>under</span>
+    <span>construction</span>
+  </div>
 
   <div style="font-size: 24px; margin-top: -10px; margin-bottom: 20px; text-align: center; color: black;">
     Zhiwei Yang
@@ -158,7 +158,7 @@ title: ""
       <section id="publications-section">
         <h2>Publications</h2>
         <div style="margin: 10px 0;" id="pub-tags"></div>
-        <p data-tag="mind">forth. <a href="#">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>
+        <p data-tag="mind consciousness">forth. <a href="#">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>
           <a href="https://philpapers.org/archive/YANIRP.pdf" style="font-size: 0.85em; font-style: italic; color: gray; margin-left: 5px;">[draft]</a>.
         </p>
         <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-left: 20px;">
@@ -208,7 +208,7 @@ title: ""
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       setupTagFilters('right', ['APA', 'AAP', 'CoRN', 'WYSSP'], '.right');
-      setupTagFilters('pub', ['mind'], '#publications-section');
+      setupTagFilters('pub', ['mind', 'consciousness'], '#publications-section');
       setupTagFilters('wip', ['mind', 'language', 'perception'], '#wip-section');
     });
 

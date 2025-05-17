@@ -48,7 +48,7 @@
 
     .center {
       flex: 2;
-      min-width: 400px;
+      min-width: 300px;
     }
 
     .right {

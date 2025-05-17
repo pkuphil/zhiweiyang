@@ -21,10 +21,10 @@
     }
 
     .outer-wrapper {
-      max-width: 800px;
-      margin: 0 auto;
-      box-sizing: border-box;
-    }
+  max-width: none;
+  width: 100%;
+  margin: 0;
+}
 
     .container {
       display: flex;

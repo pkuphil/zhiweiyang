@@ -37,7 +37,8 @@
     <!-- Left Column: Bio -->
     <aside class="column left">
       <p>
-        My<a href="#">(CV)</a> research focuses on the philosophy of mind and perception. 
+      I <a href="#">(CV)</a> am a third-year PhD student in the Department of Philosophy at Peking University and currently a visiting student at MIT. I mostly write about philosophy of mind and philosophy of perception.
+      I enjoy cooking, wandering aimlessly, cycling, exploring narrative cinema, and reading personal biographies. I'm also a fan of the band Twenty One Pilots and Hong Kong singer Sam Hui.
       </p>
     </aside>
 

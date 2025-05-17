@@ -159,8 +159,9 @@ title: ""
           <strong>Filter:</strong>
           <button onclick="filterEvents('all')">All</button>
           <button onclick="filterEvents('APA')">APA</button>
+          <button onclick="filterEvents('AAP')">APA</button>
           <button onclick="filterEvents('CoRN')">CoRN</button>
-          <button onclick="filterEvents('Workshop')">Workshop</button>
+          <button onclick="filterEvents('WYSSP')">Workshop</button>
         </div>
 
         <!-- ✅ 添加标签到每条记录 -->
@@ -168,8 +169,8 @@ title: ""
         <p data-tag="APA">2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>, Colloquium, Pacific APA, San Francisco, CA, USA.</p>
         <p data-tag="APA">2025.02. <a href="#">Is Rich Phenomenology Fragmented?</a>, Colloquium, Central APA, Online.</p>
         <p data-tag="APA">2025.01. <a href="#">Do Semantics Include Future Properties?</a>, Work in Progress, Eastern APA, New York, NY, USA.</p>
-        <p data-tag="APA">2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Australasian Association of Philosophy, Perth, WA, Australia.</p>
-        <p data-tag="Workshop">2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Workshop for Young Scholars in Science and Philosophy, Beijing, China.</p>
+        <p data-tag="AAP">2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Australasian Association of Philosophy, Perth, WA, Australia.</p>
+        <p data-tag="WYSSP">2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Workshop for Young Scholars in Science and Philosophy, Beijing, China.</p>
       </section>
     </aside>
   </div>

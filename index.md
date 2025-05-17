@@ -104,27 +104,32 @@ title: ""
     }
 
     .toggle-icon {
-      transition: transform 0.3s ease;
       display: inline-block;
-      font-size: 0.9em;
-      color: #999;
+      width: 10px;
+      height: 10px;
+      border-right: 2px solid #666;
+      border-bottom: 2px solid #666;
+      transform: rotate(-45deg);
+      transition: transform 0.35s cubic-bezier(0.23, 1, 0.32, 1);
+      margin-top: 2px;
     }
 
     .toggle-title.expanded .toggle-icon {
-      transform: rotate(90deg);
+      transform: rotate(45deg);
     }
 
     .wip-abstract {
-      color: #777;
       max-height: 0;
       overflow: hidden;
-      transition: max-height 0.4s ease, opacity 0.3s ease;
       opacity: 0;
+      transform: translateY(-5px);
+      transition: max-height 0.6s ease, opacity 0.5s ease, transform 0.5s ease;
     }
 
     .wip-abstract.show {
       max-height: 1000px;
       opacity: 1;
+      transform: translateY(0);
     }
   </style>
 </head>
@@ -197,7 +202,7 @@ title: ""
 
         <div data-tag="mind language" class="wip-item">
           <p class="toggle-title expanded" onclick="toggleAbstract(this)">
-            <span class="toggle-icon">▶</span> Do Semantic Properties Involve the Future?
+            <span class="toggle-icon"></span> Do Semantic Properties Involve the Future?
           </p>
           <div class="wip-abstract show">
             <p style="font-size: 0.9em; margin-top: -10px; margin-left: 20px;">
@@ -208,7 +213,7 @@ title: ""
 
         <div data-tag="perception mind" class="wip-item">
           <p class="toggle-title" onclick="toggleAbstract(this)">
-            <span class="toggle-icon">▶</span> Cross-modal Experiences and the Problem of Phenomenal Overlap
+            <span class="toggle-icon"></span> Cross-modal Experiences and the Problem of Phenomenal Overlap
           </p>
           <div class="wip-abstract">
             <p style="font-size: 0.9em; margin-top: -10px; margin-left: 20px;">

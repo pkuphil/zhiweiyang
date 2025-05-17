@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Zhiwei Yang CV</title>
-
   <style>
     body {
       font-family: 'Georgia', serif;
@@ -24,13 +23,13 @@
     .outer-wrapper {
       max-width: 1400px;
       margin: 0 auto;
-      padding: 0 40px;
       box-sizing: border-box;
     }
 
     .container {
       display: flex;
       gap: 20px;
+      padding: 0 20px;
     }
 
     .column {
@@ -39,18 +38,18 @@
     }
 
     .left {
-      flex: 1.3;
-      min-width: 300px;
+      width: 280px;
+      flex-shrink: 0;
     }
 
     .center {
-      flex: 2;
+      flex-grow: 1;
       min-width: 500px;
     }
 
     .right {
-      flex: 1;
-      min-width: 250px;
+      width: 300px;
+      flex-shrink: 0;
     }
 
     img.profile-photo {
@@ -68,12 +67,15 @@
       .container {
         flex-direction: column;
       }
+
+      .left, .center, .right {
+        width: 100%;
+      }
     }
   </style>
 </head>
 <body>
 
-  <!-- 页面施工提示 -->
   <div class="construction-banner" style="font-size: 24px; margin: 20px;">
     <span style="color: red;">This</span>
     <span style="color: orange;">webpage</span>
@@ -83,11 +85,10 @@
     <span style="color: purple;">construction.</span>
   </div>
 
-  <!-- 内容区域 -->
   <div class="outer-wrapper">
     <div class="container">
 
-      <!-- 左栏：照片 + 简介 -->
+      <!-- 左：照片 + 简介 -->
       <aside class="column left">
         <img src="https://github.com/pkuphil/zhiweiyang/blob/main/WechatIMG826.jpg?raw=true" alt="Profile Photo" class="profile-photo">
         <p>
@@ -96,7 +97,7 @@
         </p>
       </aside>
 
-      <!-- 中栏：Publications + Work In Progress -->
+      <!-- 中：Publications + Work In Progress -->
       <main class="column center">
         <section>
           <h2>Publications</h2>
@@ -117,7 +118,7 @@
         </section>
       </main>
 
-      <!-- 右栏：Conference Presentations + 语言 + 联系方式 -->
+      <!-- 右：会议 + 语言 + 联系 -->
       <aside class="column right">
         <section>
           <h2>Conference Presentations</h2>

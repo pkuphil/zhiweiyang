@@ -25,7 +25,7 @@
     .container {
       display: flex;
       width: 100%;
-      padding: 20px;
+      padding: 0px;
       box-sizing: border-box;
       gap: 20px;
     }

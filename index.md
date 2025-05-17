@@ -30,12 +30,12 @@ title: ""
 
     .container {
       display: flex;
-      width: 100vw;            /* 关键：强制全屏宽度 */
+      width: 100vw;
       padding-left: 10px;
       padding-right: 10px;
       gap: 20px;
-      transform: translateX(-220px) scale(0.8); /* ✅ 向左平移 + 等比缩小 */
-      transform-origin: top left;              /* ✅ 保持缩小方向自然 */
+      transform: translateX(-220px) scale(0.8);
+      transform-origin: top left;
     }
 
     .left,
@@ -91,16 +91,17 @@ title: ""
 <body>
 
   <div class="construction-banner" style="font-size: 24px; margin: 20px; text-align: center;">
-  <span style="color: red;">This</span>
-  <span style="color: orange;">webpage</span>
-  <span style="color: lightseagreen;">is</span>
-  <span style="color: green;">currently</span>
-  <span style="color: blue;">under</span>
-  <span style="color: purple;">construction.</span>
-</div>
-<div style="font-size: 24px; margin-top: -10px; margin-bottom: 20px; text-align: center; color: black;">
-  Zhiwei Yang
-</div>
+    <span style="color: red;">This</span>
+    <span style="color: orange;">webpage</span>
+    <span style="color: lightseagreen;">is</span>
+    <span style="color: green;">currently</span>
+    <span style="color: blue;">under</span>
+    <span style="color: purple;">construction.</span>
+  </div>
+
+  <div style="font-size: 24px; margin-top: -10px; margin-bottom: 20px; text-align: center; color: black;">
+    Zhiwei Yang
+  </div>
 
   <div class="container">
     <!-- 左栏 -->
@@ -152,15 +153,36 @@ title: ""
     <aside class="right">
       <section>
         <h2>Conference Presentations</h2>
-        <p>forth. <a href="#">Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok, Thailand. </p>
-        <p>2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>, Colloquium, Pacific APA, San Francisco, CA, USA.</p>
-        <p>2025.02. <a href="#">Is Rich Phenomenology Fragmented?</a>, Colloquium, Central APA, Online.</p>
-        <p>2025.01. <a href="#">Do Semantics Include Future Properties?</a>, Work in Progress, Eastern APA, New York, NY, USA.</p>
-        <p>2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Australasian Association of Philosophy, Perth, WA, Australia.</p>
-        <p>2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Workshop for Young Scholars in Science and Philosophy, Beijing, China.</p>
+
+        <!-- ✅ 筛选标签按钮 -->
+        <div style="margin: 10px 0;">
+          <strong>Filter:</strong>
+          <button onclick="filterEvents('all')">All</button>
+          <button onclick="filterEvents('APA')">APA</button>
+          <button onclick="filterEvents('CoRN')">CoRN</button>
+          <button onclick="filterEvents('Workshop')">Workshop</button>
+        </div>
+
+        <!-- ✅ 添加标签到每条记录 -->
+        <p data-tag="CoRN">forth. <a href="#">Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok, Thailand. </p>
+        <p data-tag="APA">2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>, Colloquium, Pacific APA, San Francisco, CA, USA.</p>
+        <p data-tag="APA">2025.02. <a href="#">Is Rich Phenomenology Fragmented?</a>, Colloquium, Central APA, Online.</p>
+        <p data-tag="APA">2025.01. <a href="#">Do Semantics Include Future Properties?</a>, Work in Progress, Eastern APA, New York, NY, USA.</p>
+        <p data-tag="APA">2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Australasian Association of Philosophy, Perth, WA, Australia.</p>
+        <p data-tag="Workshop">2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Workshop for Young Scholars in Science and Philosophy, Beijing, China.</p>
       </section>
     </aside>
   </div>
+
+  <!-- ✅ JavaScript for tag filtering -->
+  <script>
+    function filterEvents(tag) {
+      const events = document.querySelectorAll('[data-tag]');
+      events.forEach(el => {
+        el.style.display = (tag === 'all' || el.dataset.tag === tag) ? 'block' : 'none';
+      });
+    }
+  </script>
 
 </body>
 </html>

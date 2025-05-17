@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -27,23 +26,12 @@
 
     .container {
       display: flex;
-      width: 100vw;
+      width: 100vw;            /* 关键：强制全屏宽度 */
       padding-left: 10px;
       padding-right: 10px;
       gap: 20px;
-      transform: translateX(-10px) scale(0.9); /* ✅ 向左平移 + 缩小10% */
-      transform-origin: top left;
-      font-size: 1.05em; /* ✅ 放大正文内容 */
-    }
-
-    /* 保持 section 标题大小不变 */
-    section h1,
-    section h2,
-    section h3,
-    section h4,
-    section h5,
-    section h6 {
-      font-size: 1em;
+      transform: translateX(-220px) scale(0.8); /* ✅ 向左平移 + 等比缩小 */
+      transform-origin: top left;              /* ✅ 保持缩小方向自然 */
     }
 
     .left,
@@ -84,8 +72,6 @@
         flex-direction: column;
         padding-left: 10px;
         padding-right: 10px;
-        transform: none; /* 小屏时取消平移缩放 */
-        font-size: 1em;  /* 小屏恢复正常字号 */
       }
 
       .left, .center, .right {

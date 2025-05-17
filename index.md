@@ -31,7 +31,7 @@
       padding-left: 10px;
       padding-right: 10px;
       gap: 20px;
-      transform: translateX(-220px) scale(0.9); /* ✅ 向左平移 + 等比缩小 */
+      transform: translateX(-220px) scale(0.8); /* ✅ 向左平移 + 等比缩小 */
   transform-origin: top left;              /* ✅ 保持缩小方向自然 */
     }
 

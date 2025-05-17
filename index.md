@@ -87,6 +87,7 @@ title: ""
       }
     }
 
+    /* --- 优化的箭头样式和动画 --- */
     .toggle-title {
       cursor: pointer;
       font-weight: 500;
@@ -104,10 +105,10 @@ title: ""
     }
 
     .toggle-icon {
+      width: 12px;
+      height: 12px;
       transition: transform 0.3s ease;
-      display: inline-block;
-      font-size: 0.9em;
-      color: #999;
+      flex-shrink: 0;
     }
 
     .toggle-title.expanded .toggle-icon {
@@ -117,9 +118,9 @@ title: ""
     .wip-abstract {
       color: #777;
       max-height: 0;
+      opacity: 0;
       overflow: hidden;
       transition: max-height 0.4s ease, opacity 0.3s ease;
-      opacity: 0;
     }
 
     .wip-abstract.show {
@@ -197,7 +198,10 @@ title: ""
 
         <div data-tag="mind language" class="wip-item">
           <p class="toggle-title expanded" onclick="toggleAbstract(this)">
-            <span class="toggle-icon">▶</span> Do Semantic Properties Involve the Future?
+            <svg class="toggle-icon" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M6 4l8 6-8 6V4z" clip-rule="evenodd"/>
+            </svg>
+            Do Semantic Properties Involve the Future?
           </p>
           <div class="wip-abstract show">
             <p style="font-size: 0.9em; margin-top: -10px; margin-left: 20px;">
@@ -208,7 +212,10 @@ title: ""
 
         <div data-tag="perception mind" class="wip-item">
           <p class="toggle-title" onclick="toggleAbstract(this)">
-            <span class="toggle-icon">▶</span> Cross-modal Experiences and the Problem of Phenomenal Overlap
+            <svg class="toggle-icon" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M6 4l8 6-8 6V4z" clip-rule="evenodd"/>
+            </svg>
+            Cross-modal Experiences and the Problem of Phenomenal Overlap
           </p>
           <div class="wip-abstract">
             <p style="font-size: 0.9em; margin-top: -10px; margin-left: 20px;">

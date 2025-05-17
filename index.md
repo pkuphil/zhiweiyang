@@ -183,7 +183,6 @@ title: ""
     </aside>
 
     <main class="center">
-
       <section id="publications-section">
         <h2>Publications</h2>
         <div style="margin: 10px 0;" id="pub-tags"></div>
@@ -228,9 +227,9 @@ title: ""
         <h2>Conference Presentations</h2>
         <div style="margin: 10px 0;" id="right-tags"></div>
         <p data-tag="CoRN">forth. <a href="#">Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok, Thailand. </p>
-        <p data-tag="APA-Pacific">2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>, Colloquium, Pacific APA, San Francisco, CA, USA.</p>
-        <p data-tag="APA-Central">2025.02. <a href="#">Is Rich Phenomenology Fragmented?</a>, Colloquium, Central APA, Online.</p>
-        <p data-tag="APA-Eastern">2025.01. <a href="#">Do Semantics Include Future Properties?</a>, Work in Progress, Eastern APA, New York, NY, USA.</p>
+        <p data-tag="APA,APA-Pacific">2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>, Colloquium, Pacific APA, San Francisco, CA, USA.</p>
+        <p data-tag="APA,APA-Central">2025.02. <a href="#">Is Rich Phenomenology Fragmented?</a>, Colloquium, Central APA, Online.</p>
+        <p data-tag="APA,APA-Eastern">2025.01. <a href="#">Do Semantics Include Future Properties?</a>, Work in Progress, Eastern APA, New York, NY, USA.</p>
         <p data-tag="AAP">2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Australasian Association of Philosophy, Perth, WA, Australia.</p>
         <p data-tag="WYSSP">2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Workshop for Young Scholars in Science and Philosophy, Beijing, China.</p>
       </section>
@@ -239,7 +238,7 @@ title: ""
 
   <script>
     document.addEventListener("DOMContentLoaded", () => {
-      setupTagFilters('right', ['APA-Pacific', 'APA-Central', 'APA-Eastern', 'AAP', 'CoRN', 'WYSSP'], '.right');
+      setupTagFilters('right', ['APA', 'APA-Pacific', 'APA-Central', 'APA-Eastern', 'AAP', 'CoRN', 'WYSSP'], '.right');
       setupTagFilters('pub', ['mind', 'consciousness', 'cognitive-science'], '#publications-section');
       setupTagFilters('wip', ['mind', 'language', 'perception'], '#wip-section');
     });

@@ -124,6 +124,7 @@ title: ""
         <p>
           <a href="mailto:allenminesky@gmail.edu">allenminesky@gmail.com</a><br>
           <a href="mailto:yangjia@mit.edu">yangjia@mit.edu</a>
+          <a href="mailto:2201110913@stu.pku.edu.cn">2201110913@stu.pku.edu.cn</a>
         </p>
       </section>
     </aside>

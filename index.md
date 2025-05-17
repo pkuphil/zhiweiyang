@@ -56,7 +56,7 @@
       <section>
         <h2>Work In Progress</h2>
         <p>
-          [title redacted] (R&R).
+          Do Semantic Properties Involve the Future? under review.
         </p>
       </section>
 

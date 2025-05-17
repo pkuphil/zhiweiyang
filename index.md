@@ -255,7 +255,7 @@ title: ""
         });
       });
 
-      container.innerHTML = `<strong>Filter:</strong> <button onclick="filterByTag('${sectionId}', 'all', '${scopeSelector}')">All (${items.length})</button>`;
+      container.innerHTML = `<strong>Tags:</strong> <button onclick="filterByTag('${sectionId}', 'all', '${scopeSelector}')">All (${items.length})</button>`;
 
       tags.forEach(tag => {
         const btn = document.createElement('button');

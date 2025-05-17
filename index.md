@@ -138,11 +138,11 @@ title: ""
     <!-- 中栏 -->
     <main class="center">
  
-        <section>
+      <section>
         <h2>Publications</h2>
-        <p>
-          forth. <a href="#">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>
-  <a href="https://philpapers.org/archive/YANIRP.pdf" style="font-size: 0.85em; font-style: italic; color: gray; margin-left: 5px;">[draft]</a>.
+        <div style="margin: 10px 0;" id="pub-tags"></div>
+        <p data-tag="mind">forth. <a href="#">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>
+          <a href="https://philpapers.org/archive/YANIRP.pdf" style="font-size: 0.85em; font-style: italic; color: gray; margin-left: 5px;">[draft]</a>.
         </p>
         <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-left: 20px;">
           <strong>Abstract:</strong> Some philosophers argue that the content of iconic memory is conscious, called the Rich View. However, critics claim that only fragments of the content of iconic memory are conscious, called the Fragment View. Both sides cite different psychological experimental data to support their positions. Proponents of the Fragment View tend to assert that their view uniquely explains the data they rely on. The uniqueness of the Fragment View is challenged here. Newly introduced evidence suggests that the data supporting the Fragment View may also be compatible with the Rich View. Given the theoretical advantages of the Rich View in other respects, there are reasons to consider it the superior one.
@@ -151,7 +151,8 @@ title: ""
 
       <section>
         <h2>Work In Progress</h2>
-        <p>Do Semantic Properties Involve the Future?</p>
+        <div style="margin: 10px 0;" id="wip-tags"></div>
+        <p data-tag="mind language">Do Semantic Properties Involve the Future?</p>
         <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-left: 20px;">
           <strong>Abstract:</strong> Temporal externalism claims that a term’s meaning can depend not just on how it has been used in the past or present, but also on how it will be used in the future. This paper challenges that view through an analysis of the Druid case, arguing that to account for semantic continuity, temporal externalists must assume that speakers hold a stable, unconscious (placeholder) belief that lets a term keep tracking the same properties over time—even before future contexts arise. But this assumption is problematic: either it credits speakers with hidden knowledge of the future, which over-intellectualizes everyday language use, or it relies on vague dispositions with little explanatory value. The paper argues that neither option convincingly supports the idea that future use can determine past meaning. Without a clearer link between current mental states and future linguistic practice, temporal externalism falls short of improving on standard externalist theories.
         </p>
@@ -162,14 +163,7 @@ title: ""
     <aside class="right">
       <section>
         <h2>Conference Presentations</h2>
-
-        <!-- ✅ 筛选标签按钮 -->
-        <div style="margin: 10px 0;">
-          <strong></strong>
-          <!-- 按钮将在 JS 中动态生成 -->
-        </div>
-
-        <!-- ✅ 添加标签到每条记录 -->
+        <div style="margin: 10px 0;" id="right-tags"></div>
         <p data-tag="CoRN">forth. <a href="#">Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok, Thailand. </p>
         <p data-tag="APA">2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>, Colloquium, Pacific APA, San Francisco, CA, USA.</p>
         <p data-tag="APA">2025.02. <a href="#">Is Rich Phenomenology Fragmented?</a>, Colloquium, Central APA, Online.</p>
@@ -180,38 +174,42 @@ title: ""
     </aside>
   </div>
 
-  <!-- ✅ JavaScript for tag filtering with counts -->
+  <!-- ✅ JavaScript for all tag filtering -->
   <script>
     document.addEventListener("DOMContentLoaded", () => {
-      const events = document.querySelectorAll('[data-tag]');
-      const counts = {};
-
-      // Count occurrences of each tag
-      events.forEach(el => {
-        const tag = el.dataset.tag;
-        counts[tag] = (counts[tag] || 0) + 1;
-      });
-
-      const tags = ['APA', 'AAP', 'CoRN', 'WYSSP'];
-      const filterDiv = document.querySelector('div[style*="margin: 10px 0"]');
-
-      // Create "All" button
-      filterDiv.innerHTML = '<strong>Filter:</strong> <button onclick="filterEvents(\'all\')">All (' + events.length + ')</button>';
-
-      // Create a button for each tag
-      tags.forEach(tag => {
-        const count = counts[tag] || 0;
-        const button = document.createElement('button');
-        button.textContent = `${tag} (${count})`;
-        button.setAttribute('onclick', `filterEvents('${tag}')`);
-        filterDiv.appendChild(button);
-      });
+      setupTagFilters('right', ['APA', 'AAP', 'CoRN', 'WYSSP']);
+      setupTagFilters('pub', ['mind']);
+      setupTagFilters('wip', ['mind', 'language']);
     });
 
-    function filterEvents(tag) {
-      const events = document.querySelectorAll('[data-tag]');
-      events.forEach(el => {
-        el.style.display = (tag === 'all' || el.dataset.tag === tag) ? 'block' : 'none';
+    function setupTagFilters(section, tags) {
+      const container = document.querySelector(`#${section}-tags`);
+      const scope = section === 'right' ? '.right' : '.center';
+      const items = document.querySelectorAll(`${scope} [data-tag]`);
+      const counts = {};
+
+      items.forEach(item => {
+        const tagList = item.dataset.tag.split(/\s+/);
+        tagList.forEach(tag => {
+          counts[tag] = (counts[tag] || 0) + 1;
+        });
+      });
+
+      container.innerHTML = `<strong>Filter:</strong> <button onclick="filterByTag('${section}', 'all')">All (${items.length})</button>`;
+      tags.forEach(tag => {
+        const btn = document.createElement('button');
+        btn.textContent = `${tag} (${counts[tag] || 0})`;
+        btn.setAttribute('onclick', `filterByTag('${section}', '${tag}')`);
+        container.appendChild(btn);
+      });
+    }
+
+    function filterByTag(section, tag) {
+      const scope = section === 'right' ? '.right' : '.center';
+      const items = document.querySelectorAll(`${scope} [data-tag]`);
+      items.forEach(item => {
+        const tags = item.dataset.tag.split(/\s+/);
+        item.style.display = tag === 'all' || tags.includes(tag) ? 'block' : 'none';
       });
     }
   </script>

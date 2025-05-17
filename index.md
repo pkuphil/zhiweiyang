@@ -157,11 +157,7 @@ title: ""
         <!-- ✅ 筛选标签按钮 -->
         <div style="margin: 10px 0;">
           <strong>Filter:</strong>
-          <button onclick="filterEvents('all')">All</button>
-          <button onclick="filterEvents('APA')">APA</button>
-          <button onclick="filterEvents('AAP')">AAP</button>
-          <button onclick="filterEvents('CoRN')">CoRN</button>
-          <button onclick="filterEvents('WYSSP')">WYSSP</button>
+          <!-- 按钮将在 JS 中动态生成 -->
         </div>
 
         <!-- ✅ 添加标签到每条记录 -->
@@ -175,8 +171,34 @@ title: ""
     </aside>
   </div>
 
-  <!-- ✅ JavaScript for tag filtering -->
+  <!-- ✅ JavaScript for tag filtering with counts -->
   <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const events = document.querySelectorAll('[data-tag]');
+      const counts = {};
+
+      // Count occurrences of each tag
+      events.forEach(el => {
+        const tag = el.dataset.tag;
+        counts[tag] = (counts[tag] || 0) + 1;
+      });
+
+      const tags = ['APA', 'AAP', 'CoRN', 'WYSSP'];
+      const filterDiv = document.querySelector('div[style*="margin: 10px 0"]');
+
+      // Create "All" button
+      filterDiv.innerHTML = '<strong>Filter:</strong> <button onclick="filterEvents(\'all\')">All (' + events.length + ')</button>';
+
+      // Create a button for each tag
+      tags.forEach(tag => {
+        const count = counts[tag] || 0;
+        const button = document.createElement('button');
+        button.textContent = `${tag} (${count})`;
+        button.setAttribute('onclick', `filterEvents('${tag}')`);
+        filterDiv.appendChild(button);
+      });
+    });
+
     function filterEvents(tag) {
       const events = document.querySelectorAll('[data-tag]');
       events.forEach(el => {

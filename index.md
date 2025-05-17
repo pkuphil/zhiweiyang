@@ -10,6 +10,8 @@
   <style>
     body {
       font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
     }
 
     a {
@@ -25,9 +27,10 @@
     .container {
       display: flex;
       gap: 20px;
-      flex-wrap: wrap;
-      max-width: 1200px;
+      width: 100%;
       margin: 0 auto;
+      padding: 0 20px;
+      flex-wrap: nowrap;
     }
 
     .column {
@@ -37,17 +40,17 @@
 
     .left {
       flex: 1;
-      min-width: 250px;
+      min-width: 300px;
     }
 
     .center {
       flex: 2;
-      min-width: 400px;
+      min-width: 600px;
     }
 
     .right {
       flex: 1;
-      min-width: 250px;
+      min-width: 300px;
     }
 
     img.profile-photo {
@@ -56,12 +59,19 @@
       border-radius: 10px;
       margin-bottom: 20px;
     }
+
+    /* 响应式布局 */
+    @media screen and (max-width: 900px) {
+      .container {
+        flex-direction: column;
+      }
+    }
   </style>
 </head>
 <body>
 
   <!-- 页面施工提示 -->
-  <div class="construction-banner" style="font-size: 24px; margin-bottom: 50px;">
+  <div class="construction-banner" style="font-size: 24px; margin: 20px;">
     <span style="color: red;">This</span>
     <span style="color: orange;">webpage</span>
     <span style="color: lightseagreen;">is</span>
@@ -74,9 +84,9 @@
 
     <!-- 左边：Bio -->
     <aside class="column left">
-    <img src="https://github.com/pkuphil/zhiweiyang/blob/main/WechatIMG826.jpg?raw=true" 
-       alt="Profile Photo" 
-       style="max-width: 100%; border-radius: 10px; margin-bottom: 15px;">
+      <img src="https://github.com/pkuphil/zhiweiyang/blob/main/WechatIMG826.jpg?raw=true" 
+           alt="Profile Photo" 
+           style="max-width: 100%; border-radius: 10px; margin-bottom: 15px;">
       <p>
         I <a href="#">(CV)</a> am a third-year PhD student in the Department of Philosophy at Peking University and currently a visiting student at MIT. I mostly write about philosophy of mind and philosophy of perception.
         I enjoy cooking, wandering aimlessly, cycling, exploring narrative cinema, and reading personal biographies. I'm also a fan of the band Twenty One Pilots and Hong Kong singer Sam Hui.

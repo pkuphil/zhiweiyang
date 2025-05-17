@@ -56,7 +56,7 @@
       <section>
         <h2>Work In Progress</h2>
         <p>
-          Do Semantic Properties Involve the Future? under review.
+          Do Semantic Properties Involve the Future? 
         </p>
       </section>
 

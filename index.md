@@ -94,42 +94,43 @@ title: ""
       align-items: center;
       gap: 8px;
       font-size: 1em;
-      color: #444;
+      color: #666;
       transition: color 0.2s ease;
       user-select: none;
       position: relative;
       padding-left: 20px;
     }
 
+    .toggle-title:hover {
+      color: #000;
+    }
+
     .toggle-title::before {
-      content: '';
+      content: '›';
       position: absolute;
       left: 0;
       top: 50%;
-      width: 8px;
-      height: 8px;
-      border-right: 2px solid #666;
-      border-bottom: 2px solid #666;
-      transform: translateY(-50%) rotate(-45deg);
+      transform: translateY(-50%) rotate(0deg);
+      font-size: 1.1em;
+      color: #666;
       transition: transform 0.3s ease;
     }
 
     .toggle-title.expanded::before {
-      transform: translateY(-50%) rotate(45deg);
+      transform: translateY(-50%) rotate(90deg);
     }
 
     .wip-abstract {
       max-height: 0;
       overflow: hidden;
       opacity: 0;
-      transform: translateY(-10px);
-      transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.4s ease;
+      color: #666;
+      transition: max-height 0.5s ease, opacity 0.5s ease;
     }
 
     .wip-abstract.show {
       max-height: 1000px;
       opacity: 1;
-      transform: translateY(0);
     }
   </style>
 </head>

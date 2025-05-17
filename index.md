@@ -134,7 +134,7 @@ title: ""
       <section>
         <h2>Publications</h2>
         <p>
-          forth. <a href="https://philpapers.org/archive/YANIRP.pdf">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>
+          forth. <a href="#">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>
   <a href="https://philpapers.org/archive/YANIRP.pdf" style="font-size: 0.85em; font-style: italic; color: gray; margin-left: 5px;">[draft]</a>.
         </p>
         <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-left: 20px;">

@@ -4,9 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Zhiwei Yang CV</title>
-  <link rel="stylesheet" href="style.css" />
 
-  <!-- 全局字体样式设置 -->
   <style>
     body {
       font-family: 'Georgia', serif;
@@ -23,44 +21,47 @@
       text-decoration: underline;
     }
 
-    /* 布局设置 */
+    /* 三列布局 */
     .container {
       display: flex;
-      gap: 20px;
       width: 100%;
-      margin: 0 auto;
-      padding: 0 20px;
-      flex-wrap: nowrap;
+      padding: 20px;
+      box-sizing: border-box;
+      gap: 20px;
     }
 
-    .column {
+    .left, .center, .right {
       padding: 20px;
       box-sizing: border-box;
     }
 
     .left {
       flex: 1;
-      min-width: 300px;
+      min-width: 250px;
     }
 
     .center {
       flex: 2;
-      min-width: 600px;
+      min-width: 500px;
     }
 
     .right {
       flex: 1;
-      min-width: 300px;
+      min-width: 250px;
     }
 
     img.profile-photo {
       max-width: 100%;
       height: auto;
       border-radius: 10px;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
 
-    /* 响应式布局 */
+    section {
+      margin-bottom: 30px;
+    }
+
+    /* 响应式支持 */
     @media screen and (max-width: 900px) {
       .container {
         flex-direction: column;
@@ -82,21 +83,17 @@
 
   <div class="container">
 
-    <!-- 左边：Bio -->
-    <aside class="column left">
-      <img src="https://github.com/pkuphil/zhiweiyang/blob/main/WechatIMG826.jpg?raw=true" 
-           alt="Profile Photo" 
-           style="max-width: 100%; border-radius: 10px; margin-bottom: 15px;">
+    <!-- 左侧：照片 + 个人简介 -->
+    <aside class="left">
+      <img src="https://github.com/pkuphil/zhiweiyang/blob/main/WechatIMG826.jpg?raw=true" alt="Profile Photo" class="profile-photo">
       <p>
         I <a href="#">(CV)</a> am a third-year PhD student in the Department of Philosophy at Peking University and currently a visiting student at MIT. I mostly write about philosophy of mind and philosophy of perception.
         I enjoy cooking, wandering aimlessly, cycling, exploring narrative cinema, and reading personal biographies. I'm also a fan of the band Twenty One Pilots and Hong Kong singer Sam Hui.
       </p>
     </aside>
 
-    <!-- 中间：主要内容 -->
-    <main class="column center">
-
-      <!-- Publications -->
+    <!-- 中间：Publications + Work In Progress -->
+    <main class="center">
       <section>
         <h2>Publications</h2>
         <p>
@@ -107,7 +104,6 @@
         </p>
       </section>
 
-      <!-- Work In Progress -->
       <section>
         <h2>Work In Progress</h2>
         <p>Do Semantic Properties Involve the Future?</p>
@@ -115,8 +111,10 @@
           <strong>Abstract:</strong> Temporal externalism claims that a term’s meaning can depend not just on how it has been used in the past or present, but also on how it will be used in the future. This paper challenges that view through an analysis of the Druid case, arguing that to account for semantic continuity, temporal externalists must assume that speakers hold a stable, unconscious (placeholder) belief that lets a term keep tracking the same properties over time—even before future contexts arise. But this assumption is problematic: either it credits speakers with hidden knowledge of the future, which over-intellectualizes everyday language use, or it relies on vague dispositions with little explanatory value. The paper argues that neither option convincingly supports the idea that future use can determine past meaning. Without a clearer link between current mental states and future linguistic practice, temporal externalism falls short of improving on standard externalist theories.
         </p>
       </section>
+    </main>
 
-      <!-- Conference Presentations -->
+    <!-- 右侧：Conference Presentations + 语言 + 联系方式 -->
+    <aside class="right">
       <section>
         <h2>Conference Presentations</h2>
         <p>forth. <a href="#">Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok, Thailand. </p>
@@ -127,29 +125,21 @@
         <p>2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Workshop for Young Scholars in Science and Philosophy, Beijing, China.</p>
       </section>
 
-    </main>
+      <section>
+        <h2>Language</h2>
+        <p>
+          Chinese (Native)<br>
+          English (Okay, IELTS 8.0)
+        </p>
+      </section>
 
-    <!-- 右边：图片 -->
-    <aside class="column right">
-      <img src="https://via.placeholder.com/200" alt="Profile Photo" class="profile-photo">
-    </aside>
-
-    <!-- 右边：语言信息 -->
-    <aside class="column right">
-      <h2>Language</h2>
-      <p>
-        Chinese (Native)<br>
-        English (Okay, IELTS 8.0)
-      </p>
-    </aside>
-
-    <!-- 右边：联系方式 -->
-    <aside class="column right">
-      <h2>Contact</h2>
-      <p>
-        <a href="mailto:allenminesky@gmail.edu">allenminesky@gmail.com</a><br>
-        <a href="mailto:yangjia@mit.edu">yangjia@mit.edu</a>
-      </p>
+      <section>
+        <h2>Contact</h2>
+        <p>
+          <a href="mailto:allenminesky@gmail.edu">allenminesky@gmail.com</a><br>
+          <a href="mailto:yangjia@mit.edu">yangjia@mit.edu</a>
+        </p>
+      </section>
     </aside>
 
   </div>

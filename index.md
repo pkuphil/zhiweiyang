@@ -27,30 +27,28 @@
 
     .container {
       display: flex;
-      width: 100%;
-      padding: 0 20px;
+      flex-direction: row;
+      padding: 0 10px; /* 极小边距 */
       gap: 20px;
+      width: 100%;
     }
 
     .left,
     .center,
     .right {
-      padding: 10px;
+      padding: 10px 0;
     }
 
     .left {
-      flex: 1;
-      min-width: 200px;
+      flex: 1 1 240px; /* 比例 = 1，最小宽 240px */
     }
 
     .center {
-      flex: 2;
-      min-width: 300px;
+      flex: 2 1 0; /* 比例 = 2 */
     }
 
     .right {
-      flex: 1;
-      min-width: 200px;
+      flex: 1.2 1 260px; /* 稍比左边大一点点，更平衡 */
     }
 
     img.profile-photo {
@@ -73,16 +71,12 @@
       .left, .center, .right {
         width: 100%;
       }
-
-      .center {
-        min-width: auto;
-      }
     }
   </style>
 </head>
 <body>
 
-  <div class="construction-banner" style="font-size: 24px; margin: 20px;">
+  <div class="construction-banner" style="font-size: 24px; margin: 20px 10px;">
     <span style="color: red;">This</span>
     <span style="color: orange;">webpage</span>
     <span style="color: lightseagreen;">is</span>

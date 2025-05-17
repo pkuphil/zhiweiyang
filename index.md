@@ -31,7 +31,7 @@
       padding-left: 10px;
       padding-right: 10px;
       gap: 20px;
-      transform: translateX(-10px); /* ✅ 向左平移 */
+      transform: translateX(-30px); /* ✅ 向左平移 */
     }
 
     .left,

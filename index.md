@@ -37,7 +37,7 @@
     <!-- Left Column: Bio -->
     <aside class="column left">
       <p>
-        My <a href="https://philpapers.org/archive/YANIRP.pdf">（CV）</a> research focuses on the philosophy of mind and perception. 
+        My<a href="#">(CV)</a> research focuses on the philosophy of mind and perception. 
       </p>
     </aside>
 

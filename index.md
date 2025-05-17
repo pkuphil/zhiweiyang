@@ -27,22 +27,24 @@
     .container {
       display: flex;
       width: 100%;
+      max-width: 1200px;
+      margin: auto;
     }
 
     .column {
-      padding: 20px;
+      padding: 10px;
     }
 
     .left {
-      width: 20%;
+      width: 25%;
     }
 
     .center {
-      width: 60%;
+      width: 50%;
     }
 
     .right {
-      width: 20%;
+      width: 25%;
     }
 
     img.profile-photo {
@@ -53,12 +55,13 @@
     }
 
     section {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
 
     .construction-banner {
       font-size: 24px;
       padding: 20px 10px;
+      text-align: center;
     }
 
     @media screen and (max-width: 900px) {
@@ -101,7 +104,7 @@
           forth. <a href="https://philpapers.org/archive/YANIRP.pdf">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>.
         </p>
         <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-left: 20px;">
-          <strong>Abstract:</strong> Some philosophers argue that the content of iconic memory is conscious, called the Rich View. However, critics claim that only fragments of the content of iconic memory are conscious, called the Fragment View. Both sides cite different psychological experimental data to support their positions...
+          <strong>Abstract:</strong> Some philosophers argue that the content of iconic memory is conscious, called the Rich View. However, critics claim that only fragments of the content of iconic memory are conscious, called the Fragment View...
         </p>
       </section>
 
@@ -118,12 +121,12 @@
     <aside class="column right">
       <section>
         <h2>Conference Presentations</h2>
-        <p>forth. <a href="#">Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok, Thailand. </p>
-        <p>2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>, Colloquium, Pacific APA, San Francisco, CA, USA.</p>
-        <p>2025.02. <a href="#">Is Rich Phenomenology Fragmented?</a>, Colloquium, Central APA, Online.</p>
-        <p>2025.01. <a href="#">Do Semantics Include Future Properties?</a>, Work in Progress, Eastern APA, New York, NY, USA.</p>
-        <p>2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Australasian Association of Philosophy, Perth, WA, Australia.</p>
-        <p>2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Workshop, Beijing, China.</p>
+        <p>forth. <a href="#">Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok, Thailand.</p>
+        <p>2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>, Pacific APA, San Francisco.</p>
+        <p>2025.02. <a href="#">Is Rich Phenomenology Fragmented?</a>, Central APA, Online.</p>
+        <p>2025.01. <a href="#">Do Semantics Include Future Properties?</a>, Eastern APA, New York.</p>
+        <p>2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, AAP, Perth.</p>
+        <p>2024.04. <a href="#">Methodological Challenges</a>, Workshop, Beijing.</p>
       </section>
 
       <section>

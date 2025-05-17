@@ -124,8 +124,8 @@ title: ""
       <img src="https://github.com/pkuphil/zhiweiyang/blob/main/WechatIMG826.jpg?raw=true" alt="Profile Photo" class="profile-photo">
       <p>
         I <a href="#">(CV)</a> am a third-year PhD student in the Department of Philosophy at Peking University and currently a visiting student at MIT. I mostly write about 
-        <span style="color: #ff6b6b;">philosophy</span> <span style="color: #ffa94d;">of</span> <span style="color: #ffa94d;">mind</span> and 
-        <span style="color: #38d9a9;">philosophy</span> <span style="color: #339af0;">of</span> <span style="color: #b197fc;">perception</span>.
+        <span style="color: red;">philosophy</span> <span style="color: orange;">of</span> <span style="color: lightseagreen;">mind</span> and 
+        <span style="color: green;">philosophy</span> <span style="color: blue;">of</span> <span style="color: purple;">perception</span>.
         I enjoy cooking, wandering aimlessly, cycling, exploring narrative cinema, and reading personal biographies. I'm also a fan of the band Twenty One Pilots and Hong Kong singer Sam Hui.
       </p>
 

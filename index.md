@@ -88,33 +88,43 @@ title: ""
     }
 
     .toggle-title {
-      color: #999;
       cursor: pointer;
       font-weight: 500;
-      transition: color 0.2s ease;
-      font-size: 1em;
       display: flex;
       align-items: center;
-      gap: 6px;
+      gap: 8px;
+      font-size: 1em;
+      color: #444;
+      transition: color 0.2s ease;
+      user-select: none;
     }
 
     .toggle-title:hover {
-      color: #666;
+      color: #000;
     }
 
-    .toggle-title::before {
-      content: "▶";
+    .toggle-icon {
+      transition: transform 0.3s ease;
       display: inline-block;
-      font-size: 0.85em;
-      transition: transform 0.2s ease;
+      font-size: 0.9em;
+      color: #999;
     }
 
-    .toggle-title.expanded::before {
-      content: "▼";
+    .toggle-title.expanded .toggle-icon {
+      transform: rotate(90deg);
     }
 
     .wip-abstract {
       color: #777;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.3s ease;
+      opacity: 0;
+    }
+
+    .wip-abstract.show {
+      max-height: 1000px;
+      opacity: 1;
     }
   </style>
 </head>
@@ -186,8 +196,10 @@ title: ""
         <div style="margin: 10px 0;" id="wip-tags"></div>
 
         <div data-tag="mind language" class="wip-item">
-          <p class="toggle-title expanded" onclick="toggleAbstract(this)">Do Semantic Properties Involve the Future?</p>
-          <div class="wip-abstract" style="display: block;">
+          <p class="toggle-title expanded" onclick="toggleAbstract(this)">
+            <span class="toggle-icon">▶</span> Do Semantic Properties Involve the Future?
+          </p>
+          <div class="wip-abstract show">
             <p style="font-size: 0.9em; margin-top: -10px; margin-left: 20px;">
               <strong>Abstract:</strong> Temporal externalism claims that a term’s meaning can depend not just on how it has been used in the past or present, but also on how it will be used in the future. This paper challenges that view through an analysis of the Druid case, arguing that to account for semantic continuity, temporal externalists must assume that speakers hold a stable, unconscious (placeholder) belief that lets a term keep tracking the same properties over time—even before future contexts arise. But this assumption is problematic: either it credits speakers with hidden knowledge of the future, which over-intellectualizes everyday language use, or it relies on vague dispositions with little explanatory value. The paper argues that neither option convincingly supports the idea that future use can determine past meaning. Without a clearer link between current mental states and future linguistic practice, temporal externalism falls short of improving on standard externalist theories.
             </p>
@@ -195,8 +207,10 @@ title: ""
         </div>
 
         <div data-tag="perception mind" class="wip-item">
-          <p class="toggle-title" onclick="toggleAbstract(this)">Cross-modal Experiences and the Problem of Phenomenal Overlap</p>
-          <div class="wip-abstract" style="display: none;">
+          <p class="toggle-title" onclick="toggleAbstract(this)">
+            <span class="toggle-icon">▶</span> Cross-modal Experiences and the Problem of Phenomenal Overlap
+          </p>
+          <div class="wip-abstract">
             <p style="font-size: 0.9em; margin-top: -10px; margin-left: 20px;">
               <strong>Abstract:</strong> This paper discusses the challenge posed by Mehta’s “phenomenal overlap argument” to naïve realism. The argument claims that, even in genuine perception without illusions or hallucinations, different senses may have no overlapping phenomenal features when perceiving the same external object, thereby refuting naïve realism’s core prediction that “the same object determines the features of perceptual experience.” In response, Morgan argues that cross-modal experiences share a certain abstract similarity in “spatial properties,” which he believes is sufficient to constitute phenomenal overlap and defend the fundamental position of naïve realism. This paper does not aim to evaluate the overall validity of naïve realism but focuses on Morgan’s similarity response, analyzing the specific meaning of “spatial properties” in his argument. By distinguishing between “intrinsic spatial properties” and “relational spatial properties,” this paper argues that the similarity Morgan relies on is too abstract, failing to reflect concrete overlap in experiential content, and thus does not meet naïve realism’s requirement for phenomenal commonality.
             </p>
@@ -259,9 +273,9 @@ title: ""
 
     function toggleAbstract(element) {
       const abstract = element.nextElementSibling;
-      const isVisible = abstract.style.display === 'block';
-      abstract.style.display = isVisible ? 'none' : 'block';
+      const isVisible = abstract.classList.contains('show');
       element.classList.toggle('expanded', !isVisible);
+      abstract.classList.toggle('show', !isVisible);
     }
   </script>
 

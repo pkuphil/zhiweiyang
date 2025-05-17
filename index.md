@@ -87,7 +87,6 @@ title: ""
       }
     }
 
-    /* ▲ Triangle toggle title style */
     .toggle-title {
       color: #999;
       cursor: pointer;
@@ -125,8 +124,8 @@ title: ""
       <img src="https://github.com/pkuphil/zhiweiyang/blob/main/WechatIMG826.jpg?raw=true" alt="Profile Photo" class="profile-photo">
       <p>
         I <a href="#">(CV)</a> am a third-year PhD student in the Department of Philosophy at Peking University and currently a visiting student at MIT. I mostly write about 
-        <span style="color: #2e3b55;">philosophy</span> <span style="color: #3b5d52;">of</span> <span style="color: #4b4b4b;">mind</span> and 
-        <span style="color: #4b3f72;">philosophy</span> <span style="color: #2f3e6c;">of</span> <span style="color: #7e5f41;">perception</span>.
+        <span style="color: #3c8dbc;">philosophy</span> <span style="color: #3b5d52;">of</span> <span style="color: #5cbfbc;">mind</span> and 
+        <span style="color: #5e72e4;">philosophy</span> <span style="color: #2f3e6c;">of</span> <span style="color: #6cb2eb;">perception</span>.
         I enjoy cooking, wandering aimlessly, cycling, exploring narrative cinema, and reading personal biographies. I'm also a fan of the band Twenty One Pilots and Hong Kong singer Sam Hui.
       </p>
 
@@ -206,7 +205,6 @@ title: ""
     </aside>
   </div>
 
-  <!-- JavaScript -->
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       setupTagFilters('right', ['APA', 'AAP', 'CoRN', 'WYSSP'], '.right');

@@ -14,8 +14,6 @@
     body {
       font-family: 'Georgia', serif;
       overflow-x: hidden;
-      padding: 0;
-      margin: 0;
     }
 
     a {
@@ -29,29 +27,30 @@
 
     .container {
       display: flex;
-      flex-direction: row;
       width: 100%;
-      padding: 10px 20px; /* 少量页边距 */
+      padding: 0 20px;
       gap: 20px;
     }
 
-    .column {
+    .left,
+    .center,
+    .right {
       padding: 10px;
     }
 
     .left {
-      width: 280px;
-      flex-shrink: 0;
+      flex: 1;
+      min-width: 200px;
     }
 
     .center {
-      flex: 1;
-      min-width: 400px;
+      flex: 2;
+      min-width: 300px;
     }
 
     .right {
-      width: 300px;
-      flex-shrink: 0;
+      flex: 1;
+      min-width: 200px;
     }
 
     img.profile-photo {
@@ -65,10 +64,10 @@
       margin-bottom: 30px;
     }
 
-    /* 响应式：小屏幕变成垂直排列 */
     @media screen and (max-width: 900px) {
       .container {
         flex-direction: column;
+        padding: 0 10px;
       }
 
       .left, .center, .right {
@@ -94,7 +93,7 @@
 
   <div class="container">
     <!-- 左栏 -->
-    <aside class="column left">
+    <aside class="left">
       <img src="https://github.com/pkuphil/zhiweiyang/blob/main/WechatIMG826.jpg?raw=true" alt="Profile Photo" class="profile-photo">
       <p>
         I <a href="#">(CV)</a> am a third-year PhD student in the Department of Philosophy at Peking University and currently a visiting student at MIT. I mostly write about philosophy of mind and philosophy of perception.
@@ -118,7 +117,7 @@
     </aside>
 
     <!-- 中栏 -->
-    <main class="column center">
+    <main class="center">
       <section>
         <h2>Publications</h2>
         <p>
@@ -139,7 +138,7 @@
     </main>
 
     <!-- 右栏 -->
-    <aside class="column right">
+    <aside class="right">
       <section>
         <h2>Conference Presentations</h2>
         <p>forth. <a href="#">Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok, Thailand. </p>
@@ -150,7 +149,6 @@
         <p>2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Workshop for Young Scholars in Science and Philosophy, Beijing, China.</p>
       </section>
     </aside>
-
   </div>
 
 </body>

@@ -21,7 +21,7 @@
     }
 
     .outer-wrapper {
-      max-width: 1400px;
+      max-width: 1200px;
       margin: 0 auto;
       box-sizing: border-box;
     }
@@ -29,7 +29,7 @@
     .container {
       display: flex;
       gap: 20px;
-      padding: 0 20px;
+      padding: 0 10px;
     }
 
     .column {
@@ -38,13 +38,13 @@
     }
 
     .left, .right {
-      width: 280px;
+      width: 240px;
       flex-shrink: 0;
     }
 
     .center {
       flex-grow: 1;
-      min-width: 500px;
+      min-width: 0;
     }
 
     img.profile-photo {
@@ -61,6 +61,7 @@
     @media screen and (max-width: 900px) {
       .container {
         flex-direction: column;
+        padding: 10px;
       }
 
       .left, .center, .right {

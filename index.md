@@ -94,6 +94,21 @@
           I <a href="#">(CV)</a> am a third-year PhD student in the Department of Philosophy at Peking University and currently a visiting student at MIT. I mostly write about philosophy of mind and philosophy of perception.
           I enjoy cooking, wandering aimlessly, cycling, exploring narrative cinema, and reading personal biographies. I'm also a fan of the band Twenty One Pilots and Hong Kong singer Sam Hui.
         </p>
+        <section>
+          <h2>Language</h2>
+          <p>
+            Chinese (Native)<br>
+            English (Okay, IELTS 8.0)
+          </p>
+        </section>
+
+        <section>
+          <h2>Contact</h2>
+          <p>
+            <a href="mailto:allenminesky@gmail.edu">allenminesky@gmail.com</a><br>
+            <a href="mailto:yangjia@mit.edu">yangjia@mit.edu</a>
+          </p>
+        </section>
       </aside>
 
       <!-- 中：Publications + Work In Progress -->
@@ -129,21 +144,7 @@
           <p>2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Workshop for Young Scholars in Science and Philosophy, Beijing, China.</p>
         </section>
 
-        <section>
-          <h2>Language</h2>
-          <p>
-            Chinese (Native)<br>
-            English (Okay, IELTS 8.0)
-          </p>
-        </section>
-
-        <section>
-          <h2>Contact</h2>
-          <p>
-            <a href="mailto:allenminesky@gmail.edu">allenminesky@gmail.com</a><br>
-            <a href="mailto:yangjia@mit.edu">yangjia@mit.edu</a>
-          </p>
-        </section>
+        
       </aside>
 
     </div>

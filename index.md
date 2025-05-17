@@ -42,16 +42,18 @@
     }
 
     .left {
-  flex: 1 1 30%;
+  flex: 1;
   min-width: 200px;
 }
 
 .center {
-  flex: 0 0 40%;
+  flex: 1.2;
+  min-width: 400px;
+
 }
 
 .right {
-  flex: 1 1 30%;
+  flex: 1;
   min-width: 200px;
 }
 

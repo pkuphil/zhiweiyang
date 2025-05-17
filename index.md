@@ -37,7 +37,7 @@
       box-sizing: border-box;
     }
 
-    .left {
+    .left, .right {
       width: 280px;
       flex-shrink: 0;
     }
@@ -45,11 +45,6 @@
     .center {
       flex-grow: 1;
       min-width: 500px;
-    }
-
-    .right {
-      width: 300px;
-      flex-shrink: 0;
     }
 
     img.profile-photo {

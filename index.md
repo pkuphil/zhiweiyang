@@ -1,13 +1,21 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Zhiwei Yang CV</title>
   <style>
-    body {
-      font-family: 'Georgia', serif;
+    /* 通用设置 */
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      overflow-x: hidden;
+      padding: 10px;
     }
 
     a {
@@ -19,21 +27,21 @@
       text-decoration: underline;
     }
 
+    /* 布局容器 */
     .outer-wrapper {
-  max-width: none;
-  width: 100%;
-  margin: 0;
-}
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px;
+    }
 
     .container {
       display: flex;
       gap: 20px;
-      padding: 0 20px;
+      flex-wrap: wrap;
     }
 
     .column {
-      padding: 20px;
-      box-sizing: border-box;
+      padding: 10px;
     }
 
     .left {
@@ -62,6 +70,7 @@
       margin-bottom: 30px;
     }
 
+    /* 响应式布局 */
     @media screen and (max-width: 900px) {
       .container {
         flex-direction: column;
@@ -70,12 +79,16 @@
       .left, .center, .right {
         width: 100%;
       }
+
+      .center {
+        min-width: auto;
+      }
     }
   </style>
 </head>
 <body>
 
-  <div class="construction-banner" style="font-size: 24px; margin: 20px;">
+  <div class="construction-banner" style="font-size: 24px; margin: 20px 0;">
     <span style="color: red;">This</span>
     <span style="color: orange;">webpage</span>
     <span style="color: lightseagreen;">is</span>
@@ -87,7 +100,7 @@
   <div class="outer-wrapper">
     <div class="container">
 
-      <!-- 左：照片 + 简介 -->
+      <!-- 左侧：照片 + 简介 -->
       <aside class="column left">
         <img src="https://github.com/pkuphil/zhiweiyang/blob/main/WechatIMG826.jpg?raw=true" alt="Profile Photo" class="profile-photo">
         <p>
@@ -111,7 +124,7 @@
         </section>
       </aside>
 
-      <!-- 中：Publications + Work In Progress -->
+      <!-- 中间：Publications + Work In Progress -->
       <main class="column center">
         <section>
           <h2>Publications</h2>
@@ -132,7 +145,7 @@
         </section>
       </main>
 
-      <!-- 右：会议 + 语言 + 联系 -->
+      <!-- 右侧：会议 -->
       <aside class="column right">
         <section>
           <h2>Conference Presentations</h2>
@@ -143,11 +156,10 @@
           <p>2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Australasian Association of Philosophy, Perth, WA, Australia.</p>
           <p>2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Workshop for Young Scholars in Science and Philosophy, Beijing, China.</p>
         </section>
-
-        
       </aside>
 
     </div>
   </div>
+
 </body>
 </html>

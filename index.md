@@ -159,9 +159,9 @@ title: ""
           <strong>Filter:</strong>
           <button onclick="filterEvents('all')">All</button>
           <button onclick="filterEvents('APA')">APA</button>
-          <button onclick="filterEvents('AAP')">APA</button>
+          <button onclick="filterEvents('AAP')">AAP</button>
           <button onclick="filterEvents('CoRN')">CoRN</button>
-          <button onclick="filterEvents('WYSSP')">Workshop</button>
+          <button onclick="filterEvents('WYSSP')">WYSSP</button>
         </div>
 
         <!-- ✅ 添加标签到每条记录 -->

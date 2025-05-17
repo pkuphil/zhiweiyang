@@ -86,14 +86,14 @@
 </head>
 <body>
 
-  <div class="construction-banner" style="font-size: 24px; margin: 20px 10px;">
-    <span style="color: red;">This</span>
-    <span style="color: orange;">webpage</span>
-    <span style="color: lightseagreen;">is</span>
-    <span style="color: green;">currently</span>
-    <span style="color: blue;">under</span>
-    <span style="color: purple;">construction.</span>
-  </div>
+  <div class="construction-banner" style="font-size: 24px; margin: 20px; text-align: center;">
+  <span style="color: red;">This</span>
+  <span style="color: orange;">webpage</span>
+  <span style="color: lightseagreen;">is</span>
+  <span style="color: green;">currently</span>
+  <span style="color: blue;">under</span>
+  <span style="color: purple;">construction.</span>
+</div>
 
   <div class="container">
     <!-- 左栏 -->

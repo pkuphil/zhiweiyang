@@ -27,8 +27,8 @@
     .container {
       display: flex;
       width: 100%;
-      max-width: 1400px;
-      margin: auto;
+      max-width: none;
+      margin: 0;
     }
 
     .column {

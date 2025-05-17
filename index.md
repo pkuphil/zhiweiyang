@@ -202,8 +202,8 @@ title: ""
       tags.forEach(tag => {
         const count = counts[tag] || 0;
         const button = document.createElement('button');
-        button.textContent = ${tag} (${count});
-        button.setAttribute('onclick', filterEvents('${tag}'));
+        button.textContent = `${tag} (${count})`;
+        button.setAttribute('onclick', `filterEvents('${tag}')`);
         filterDiv.appendChild(button);
       });
     });

@@ -106,13 +106,13 @@ title: ""
 <body>
 
   <div class="construction-banner" style="font-size: 24px; margin: 20px; text-align: center;">
-    <span style="color: red;">This</span>
-    <span style="color: orange;">webpage</span>
-    <span style="color: lightseagreen;">is</span>
-    <span style="color: green;">currently</span>
-    <span style="color: blue;">under</span>
-    <span style="color: purple;">construction</span>
-  </div>
+  <span>This</span>
+  <span>webpage</span>
+  <span>is</span>
+  <span>currently</span>
+  <span>under</span>
+  <span>construction</span>
+</div>
 
   <div style="font-size: 24px; margin-top: -10px; margin-bottom: 20px; text-align: center; color: black;">
     Zhiwei Yang

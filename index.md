@@ -74,6 +74,7 @@
 
     <!-- 左边：Bio -->
     <aside class="column left">
+    <img src="https://via.placeholder.com/250" alt="Profile Photo" style="max-width: 100%; border-radius: 10px; margin-bottom: 15px;">
       <p>
         I <a href="#">(CV)</a> am a third-year PhD student in the Department of Philosophy at Peking University and currently a visiting student at MIT. I mostly write about philosophy of mind and philosophy of perception.
         I enjoy cooking, wandering aimlessly, cycling, exploring narrative cinema, and reading personal biographies. I'm also a fan of the band Twenty One Pilots and Hong Kong singer Sam Hui.

@@ -9,6 +9,8 @@
       font-family: 'Georgia', serif;
       margin: 0;
       padding: 0;
+      width: 100vw;
+      overflow-x: hidden;
     }
 
     a {
@@ -22,8 +24,8 @@
 
     .container {
       display: flex;
-      gap: 20px;
-      padding: 0 10px;
+      width: 100vw;
+      box-sizing: border-box;
     }
 
     .column {
@@ -32,16 +34,16 @@
     }
 
     .left {
-      flex: 1 1 20%;
+      flex: 0 0 240px;
     }
 
     .center {
-      flex: 1 1 60%;
+      flex: 1;
       min-width: 0;
     }
 
     .right {
-      flex: 1 1 20%;
+      flex: 0 0 240px;
     }
 
     img.profile-photo {
@@ -53,6 +55,11 @@
 
     section {
       margin-bottom: 30px;
+    }
+
+    .construction-banner {
+      font-size: 24px;
+      padding: 20px 10px;
     }
 
     @media screen and (max-width: 900px) {
@@ -69,7 +76,7 @@
 </head>
 <body>
 
-  <div class="construction-banner" style="font-size: 24px; margin: 20px;">
+  <div class="construction-banner">
     <span style="color: red;">This</span>
     <span style="color: orange;">webpage</span>
     <span style="color: lightseagreen;">is</span>

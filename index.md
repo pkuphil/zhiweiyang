@@ -74,7 +74,7 @@
 
     <!-- 左边：Bio -->
     <aside class="column left">
-    <img src="https://github.com/user-attachments/assets/6670b064-f378-4253-b42a-c1fbc355460c" 
+    <img src="https://github.com/pkuphil/zhiweiyang/blob/main/WechatIMG826.jpg?raw=true" 
        alt="Profile Photo" 
        style="max-width: 100%; border-radius: 10px; margin-bottom: 15px;">
       <p>

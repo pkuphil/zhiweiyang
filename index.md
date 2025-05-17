@@ -96,7 +96,7 @@ title: ""
     <span style="color: lightseagreen;">is</span>
     <span style="color: green;">currently</span>
     <span style="color: blue;">under</span>
-    <span style="color: purple;">construction.</span>
+    <span style="color: purple;">construction</span>
   </div>
 
   <div style="font-size: 24px; margin-top: -10px; margin-bottom: 20px; text-align: center; color: black;">

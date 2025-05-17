@@ -16,7 +16,7 @@ title: ""
       padding: 0;
       font-family: 'Georgia', serif;
       overflow-x: hidden;
-      font-size: 16px;
+      font-size: 16.5px;
     }
 
     a {

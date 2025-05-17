@@ -87,20 +87,20 @@ title: ""
       }
     }
 
-    /* ▼ Custom styles for triangle toggle text */
+    /* ▲ Triangle toggle title style */
     .toggle-title {
-      color: #888;
+      color: #999;
       cursor: pointer;
       font-weight: 500;
       transition: color 0.2s ease;
     }
 
     .toggle-title:hover {
-      color: #555;
+      color: #666;
     }
 
     .wip-abstract {
-      color: #777; /* slightly brighter than default */
+      color: #777;
     }
   </style>
 </head>
@@ -124,11 +124,11 @@ title: ""
     <aside class="left">
       <img src="https://github.com/pkuphil/zhiweiyang/blob/main/WechatIMG826.jpg?raw=true" alt="Profile Photo" class="profile-photo">
       <p>
-  I <a href="#">(CV)</a> am a third-year PhD student in the Department of Philosophy at Peking University and currently a visiting student at MIT. I mostly write about 
-  <span style="color: #2e3b55;">philosophy</span> <span style="color: #3b5d52;">of</span> <span style="color: #4b4b4b;">mind</span> and 
-  <span style="color: #4b3f72;">philosophy</span> <span style="color: #2f3e6c;">of</span> <span style="color: #7e5f41;">perception</span>.
-  I enjoy cooking, wandering aimlessly, cycling, exploring narrative cinema, and reading personal biographies. I'm also a fan of the band Twenty One Pilots and Hong Kong singer Sam Hui.
-</p>
+        I <a href="#">(CV)</a> am a third-year PhD student in the Department of Philosophy at Peking University and currently a visiting student at MIT. I mostly write about 
+        <span style="color: #2e3b55;">philosophy</span> <span style="color: #3b5d52;">of</span> <span style="color: #4b4b4b;">mind</span> and 
+        <span style="color: #4b3f72;">philosophy</span> <span style="color: #2f3e6c;">of</span> <span style="color: #7e5f41;">perception</span>.
+        I enjoy cooking, wandering aimlessly, cycling, exploring narrative cinema, and reading personal biographies. I'm also a fan of the band Twenty One Pilots and Hong Kong singer Sam Hui.
+      </p>
 
       <section>
         <h2>Interview</h2>
@@ -163,7 +163,7 @@ title: ""
           <a href="https://philpapers.org/archive/YANIRP.pdf" style="font-size: 0.85em; font-style: italic; color: gray; margin-left: 5px;">[draft]</a>.
         </p>
         <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-left: 20px;">
-          <strong>Abstract:</strong> Some philosophers argue that the content of iconic memory is conscious, called the Rich View. However, critics ain that only fragments of the content of iconic memory are conscious, called the Fragment View. Both sides cite different psychological experimental data to support their positions. Proponents of the Fragment View tend to assert that their view uniquely explains the data they rely on. The uniqueness of the Fragment View is challenged here. Newly introduced evidence suggests that the data supporting the Fragment View may also be compatible with the Rich View. Given the theoretical advantages of the Rich View in other respects, there are reasons to consider it the superior one.
+          <strong>Abstract:</strong> Some philosophers argue that the content of iconic memory is conscious, called the Rich View. However, critics claim that only fragments of the content of iconic memory are conscious, called the Fragment View. Both sides cite different psychological experimental data to support their positions. Proponents of the Fragment View tend to assert that their view uniquely explains the data they rely on. The uniqueness of the Fragment View is challenged here. Newly introduced evidence suggests that the data supporting the Fragment View may also be compatible with the Rich View. Given the theoretical advantages of the Rich View in other respects, there are reasons to consider it the superior one.
         </p>
       </section>
 
@@ -206,7 +206,7 @@ title: ""
     </aside>
   </div>
 
-  <!-- ✅ JavaScript for tag filtering + fold toggle -->
+  <!-- JavaScript -->
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       setupTagFilters('right', ['APA', 'AAP', 'CoRN', 'WYSSP'], '.right');

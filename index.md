@@ -110,7 +110,7 @@ title: ""
       <p>
         I <a href="#">(CV)</a> am a third-year PhD student in the Department of Philosophy at Peking University and currently a visiting student at MIT. I mostly write about philosophy of mind and philosophy of perception.
         I enjoy cooking, wandering aimlessly, cycling, exploring narrative cinema, and reading personal biographies. I'm also a fan of the band Twenty One Pilots and Hong Kong singer Sam Hui.
-        <br><a href="[https://your-interview-link.com](https://blog.apaonline.org/2025/03/28/apa-member-interview-zhiwei-yang/)" style="font-size: 0.95em; color: darkblue;">This is my interview</a>
+        <br><a href="https://blog.apaonline.org/2025/03/28/apa-member-interview-zhiwei-yang/" style="font-size: 0.95em; color: darkblue;">This is my interview</a>
       </p>
       <section>
         <h2>Language</h2>

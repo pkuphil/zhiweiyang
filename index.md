@@ -21,7 +21,7 @@
     }
 
     .outer-wrapper {
-      max-width: 1800px;
+      max-width: 1000px;
       margin: 0 auto;
       box-sizing: border-box;
     }

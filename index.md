@@ -140,6 +140,9 @@ title: ""
 
       <section>
         <h2>Research</h2>
+         <p>
+          I mostly write about philosophy of mind and philosophy of perception. 
+        <p>
 
         <section>
           <h2 style="font-size: 1.1em;">Publications</h2>

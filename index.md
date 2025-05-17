@@ -150,7 +150,6 @@ title: ""
   </div>
 
   <div class="container">
-    <!-- 左栏 -->
     <aside class="left">
       <img src="https://github.com/pkuphil/zhiweiyang/blob/main/WechatIMG826.jpg?raw=true" alt="Profile Photo" class="profile-photo">
       <p>
@@ -164,7 +163,7 @@ title: ""
         <h2>Interview</h2>
         <p><a href="https://blog.apaonline.org/2025/03/28/apa-member-interview-zhiwei-yang/" target="_blank">This is my APA Member interview</a></p>
       </section>
-      
+
       <section>
         <h2>Language</h2>
         <p>
@@ -183,13 +182,12 @@ title: ""
       </section>
     </aside>
 
-    <!-- 中栏 -->
     <main class="center">
 
       <section id="publications-section">
         <h2>Publications</h2>
         <div style="margin: 10px 0;" id="pub-tags"></div>
-        <p data-tag="mind consciousness cognitive-science">forth. <a href="#">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>
+        <p data-tag="mind,consciousness,cognitive-science">forth. <a href="#">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>
           <a href="https://philpapers.org/archive/YANIRP.pdf" style="font-size: 0.85em; font-style: italic; color: gray; margin-left: 5px;">[draft]</a>.
         </p>
         <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-left: 20px;">
@@ -201,7 +199,7 @@ title: ""
         <h2>Work In Progress</h2>
         <div style="margin: 10px 0;" id="wip-tags"></div>
 
-        <div data-tag="mind language" class="wip-item">
+        <div data-tag="mind,language" class="wip-item">
           <p class="toggle-title expanded" onclick="toggleAbstract(this)">
             Do Semantic Properties Involve the Future?
           </p>
@@ -212,7 +210,7 @@ title: ""
           </div>
         </div>
 
-        <div data-tag="perception mind" class="wip-item">
+        <div data-tag="perception,mind" class="wip-item">
           <p class="toggle-title" onclick="toggleAbstract(this)">
             Cross-modal Experiences and the Problem of Phenomenal Overlap
           </p>
@@ -225,34 +223,26 @@ title: ""
       </section>
     </main>
 
-    <!-- 右栏 -->
     <aside class="right">
       <section>
         <h2>Conference Presentations</h2>
         <div style="margin: 10px 0;" id="right-tags"></div>
         <p data-tag="CoRN">forth. <a href="#">Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok, Thailand. </p>
-
-<p data-tag="APA-Pacific">2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>, Colloquium, Pacific APA, San Francisco, CA, USA.</p>
-
-<p data-tag="APA-Central">2025.02. <a href="#">Is Rich Phenomenology Fragmented?</a>, Colloquium, Central APA, Online.</p>
-
-<p data-tag="APA-Eastern">2025.01. <a href="#">Do Semantics Include Future Properties?</a>, Work in Progress, Eastern APA, New York, NY, USA.</p>
-
-<p data-tag="AAP">2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Australasian Association of Philosophy, Perth, WA, Australia.</p>
-
-<p data-tag="WYSSP">2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Workshop for Young Scholars in Science and Philosophy, Beijing, China.</p>
-
+        <p data-tag="APA-Pacific">2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>, Colloquium, Pacific APA, San Francisco, CA, USA.</p>
+        <p data-tag="APA-Central">2025.02. <a href="#">Is Rich Phenomenology Fragmented?</a>, Colloquium, Central APA, Online.</p>
+        <p data-tag="APA-Eastern">2025.01. <a href="#">Do Semantics Include Future Properties?</a>, Work in Progress, Eastern APA, New York, NY, USA.</p>
+        <p data-tag="AAP">2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Australasian Association of Philosophy, Perth, WA, Australia.</p>
+        <p data-tag="WYSSP">2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Workshop for Young Scholars in Science and Philosophy, Beijing, China.</p>
       </section>
     </aside>
   </div>
 
   <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    setupTagFilters('right', ['APA-Pacific', 'APA-Central', 'APA-Eastern', 'AAP', 'CoRN', 'WYSSP'], '.right');
-    setupTagFilters('pub', ['mind', 'consciousness', 'cognitive-science'], '#publications-section');
-    setupTagFilters('wip', ['mind', 'language', 'perception'], '#wip-section');
-  });
-</script>
+    document.addEventListener("DOMContentLoaded", () => {
+      setupTagFilters('right', ['APA-Pacific', 'APA-Central', 'APA-Eastern', 'AAP', 'CoRN', 'WYSSP'], '.right');
+      setupTagFilters('pub', ['mind', 'consciousness', 'cognitive-science'], '#publications-section');
+      setupTagFilters('wip', ['mind', 'language', 'perception'], '#wip-section');
+    });
 
     function setupTagFilters(sectionId, tags, scopeSelector) {
       const container = document.querySelector(`#${sectionId}-tags`);
@@ -260,7 +250,7 @@ title: ""
       const counts = {};
 
       items.forEach(item => {
-        const tagList = item.dataset.tag.split(/\s+/);
+        const tagList = item.dataset.tag.split(',');
         tagList.forEach(tag => {
           counts[tag] = (counts[tag] || 0) + 1;
         });
@@ -279,7 +269,7 @@ title: ""
     function filterByTag(sectionId, tag, scopeSelector) {
       const items = document.querySelectorAll(`${scopeSelector} [data-tag]`);
       items.forEach(item => {
-        const tags = item.dataset.tag.split(/\s+/);
+        const tags = item.dataset.tag.split(',');
         item.style.display = tag === 'all' || tags.includes(tag) ? 'block' : 'none';
       });
     }

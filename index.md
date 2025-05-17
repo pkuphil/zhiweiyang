@@ -114,7 +114,7 @@ title: ""
 
 <section>
   <h2>Interview</h2>
-  <p><a href="https://blog.apaonline.org/2025/03/28/apa-member-interview-zhiwei-yang/" target="_blank">This is my interview</a></p>
+  <p><a href="https://blog.apaonline.org/2025/03/28/apa-member-interview-zhiwei-yang/" target="_blank">This is my APA Member interview</a></p>
 </section>
       
       <section>

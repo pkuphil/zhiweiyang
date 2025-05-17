@@ -97,33 +97,33 @@ title: ""
       color: #444;
       transition: color 0.2s ease;
       user-select: none;
+      position: relative;
+      padding-left: 20px;
     }
 
-    .toggle-title:hover {
-      color: #000;
-    }
-
-    .toggle-icon {
-      display: inline-block;
-      width: 10px;
-      height: 10px;
+    .toggle-title::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 8px;
+      height: 8px;
       border-right: 2px solid #666;
       border-bottom: 2px solid #666;
-      transform: rotate(-45deg);
-      transition: transform 0.35s cubic-bezier(0.23, 1, 0.32, 1);
-      margin-top: 2px;
+      transform: translateY(-50%) rotate(-45deg);
+      transition: transform 0.3s ease;
     }
 
-    .toggle-title.expanded .toggle-icon {
-      transform: rotate(45deg);
+    .toggle-title.expanded::before {
+      transform: translateY(-50%) rotate(45deg);
     }
 
     .wip-abstract {
       max-height: 0;
       overflow: hidden;
       opacity: 0;
-      transform: translateY(-5px);
-      transition: max-height 0.6s ease, opacity 0.5s ease, transform 0.5s ease;
+      transform: translateY(-10px);
+      transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.4s ease;
     }
 
     .wip-abstract.show {
@@ -202,7 +202,7 @@ title: ""
 
         <div data-tag="mind language" class="wip-item">
           <p class="toggle-title expanded" onclick="toggleAbstract(this)">
-            <span class="toggle-icon"></span> Do Semantic Properties Involve the Future?
+            Do Semantic Properties Involve the Future?
           </p>
           <div class="wip-abstract show">
             <p style="font-size: 0.9em; margin-top: -10px; margin-left: 20px;">
@@ -213,7 +213,7 @@ title: ""
 
         <div data-tag="perception mind" class="wip-item">
           <p class="toggle-title" onclick="toggleAbstract(this)">
-            <span class="toggle-icon"></span> Cross-modal Experiences and the Problem of Phenomenal Overlap
+            Cross-modal Experiences and the Problem of Phenomenal Overlap
           </p>
           <div class="wip-abstract">
             <p style="font-size: 0.9em; margin-top: -10px; margin-left: 20px;">

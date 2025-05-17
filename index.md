@@ -35,12 +35,31 @@
   <div class="container">
     
     <!-- Left Column: Bio -->
-    <aside class="column left">
-      <p>
-      I <a href="#">(CV)</a> am a third-year PhD student in the Department of Philosophy at Peking University and currently a visiting student at MIT. I mostly write about philosophy of mind and philosophy of perception.
-      I enjoy cooking, wandering aimlessly, cycling, exploring narrative cinema, and reading personal biographies. I'm also a fan of the band Twenty One Pilots and Hong Kong singer Sam Hui.
-      </p>
-    </aside>
+    <aside class="profile-bio">
+  <section class="bio-content">
+    <h2>About Me</h2>
+    <p>
+      I'm a third-year PhD student in the Department of Philosophy at Peking University and currently a visiting student at MIT.
+      My main research interests lie in the philosophy of mind and philosophy of perception.
+      <br><br>
+      <a href="#" class="cv-link">View My CV</a>
+    </p>
+    
+    <h3>Interests</h3>
+    <ul>
+      <li>Cooking</li>
+      <li>Wandering aimlessly</li>
+      <li>Cycling</li>
+      <li>Exploring narrative cinema</li>
+      <li>Reading personal biographies</li>
+    </ul>
+
+    <h3>Favorites</h3>
+    <p>
+      I'm a fan of <strong>Twenty One Pilots</strong> and Hong Kong singer <strong>Sam Hui</strong>.
+    </p>
+  </section>
+</aside>
 
     <!-- Center Column: Main Content -->
     <main class="column center">

@@ -240,7 +240,7 @@ title: ""
     document.addEventListener("DOMContentLoaded", () => {
       setupTagFilters('right', ['APA', 'Colloquium', 'Pacific APA', 'Central APA', 'Eastern APA', 'AAP', 'CoRN', 'WYSSP'], '.right');
       setupTagFilters('pub', ['mind', 'consciousness', 'cognitive-science'], '#publications-section');
-      setupTagFilters('wip', ['mind', 'language', 'perception'], '#wip-section');
+      setupTagFilters('wip', ['mind', 'language', 'perception', 'epistemology'], '#wip-section');
     });
 
     function setupTagFilters(sectionId, tags, scopeSelector) {

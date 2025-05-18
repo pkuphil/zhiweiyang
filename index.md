@@ -198,7 +198,7 @@ title: ""
         <h2>Work In Progress</h2>
         <div style="margin: 10px 0;" id="wip-tags"></div>
 
-        <div data-tag="mind,language" class="wip-item">
+        <div data-tag="mind,language,epistemology" class="wip-item">
           <p class="toggle-title expanded" onclick="toggleAbstract(this)">
             Do Semantic Properties Involve the Future?
           </p>

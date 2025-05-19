@@ -224,7 +224,7 @@ title: ""
 
     <aside class="right">
       <section>
-        <h2>Conference Presentations</h2>
+        <h2>Talks</h2>
         <div style="margin: 10px 0;" id="right-tags"></div>
         <p data-tag="CoRN">forth. <a href="#">Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok, Thailand. </p>
         <p data-tag="APA,Pacific APA,Colloquium">2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>, Colloquium, Pacific APA, San Francisco, CA, USA.</p>
@@ -232,13 +232,14 @@ title: ""
         <p data-tag="APA,Eastern APA">2025.01. <a href="#">Do Semantics Include Future Properties?</a>, Work in Progress, Eastern APA, New York, NY, USA.</p>
         <p data-tag="AAP,Colloquium">2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Australasian Association of Philosophy, Perth, WA, Australia.</p>
         <p data-tag="WYSSP,Colloquium">2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Workshop for Young Scholars in Science and Philosophy, Beijing, China.</p>
+        <p data-tag="PKU,Colloquium">2024.03. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, PKU Philosophy R&W, Beijing, China.</p>
       </section>
     </aside>
   </div>
 
   <script>
     document.addEventListener("DOMContentLoaded", () => {
-      setupTagFilters('right', ['APA', 'Colloquium', 'Pacific APA', 'Central APA', 'Eastern APA', 'AAP', 'CoRN', 'WYSSP'], '.right');
+      setupTagFilters('right', ['APA', 'Colloquium', 'Pacific APA', 'Central APA', 'Eastern APA', 'AAP', 'CoRN', 'WYSSP',‘PKU’], '.right');
       setupTagFilters('pub', ['mind', 'consciousness', 'cognitive-science'], '#publications-section');
       setupTagFilters('wip', ['mind', 'language', 'perception', 'epistemology'], '#wip-section');
     });

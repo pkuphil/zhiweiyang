@@ -215,7 +215,7 @@ title: ""
           </p>
           <div class="wip-abstract">
             <p style="font-size: 0.9em; margin-top: -10px; margin-left: 20px;">
-              <strong>Abstract:</strong> This paper discusses the challenge posed by Mehta’s “phenomenal overlap argument” to naïve realism. The argument claims that, even in genuine perception without illusions or hallucinations, different senses may have no overlapping phenomenal features when perceiving the same external object, thereby refuting naïve realism’s core prediction that “the same object determines the features of perceptual experience.” In response, Morgan argues that cross-modal experiences share a certain abstract similarity in “spatial properties,” which he believes is sufficient to constitute phenomenal overlap and defend the fundamental position of naïve realism. This paper does not aim to evaluate the overall validity of naïve realism but focuses on Morgan’s similarity response, analyzing the specific meaning of “spatial properties” in his argument. By distinguishing between “intrinsic spatial properties” and “relational spatial properties,” this paper argues that the similarity Morgan relies on is too abstract, failing to reflect concrete overlap in experiential content, and thus does not meet naïve realism’s requirement for phenomenal commonality.
+              <strong>Abstract:</strong> This paper discusses the challenge posed by Mehta’s “phenomenal overlap argument” to naïve realism. The argument claims that, even in genuine perception without illusions or hallucinations, different senses may have no overlapping phenom...
             </p>
           </div>
         </div>

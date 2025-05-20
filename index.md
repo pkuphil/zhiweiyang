@@ -232,7 +232,7 @@ title: ""
         <p data-tag="APA,Eastern APA">2025.01. <a href="#">Do Semantics Include Future Properties?</a>, Work in Progress, Eastern APA, New York, NY, USA.</p>
         <p data-tag="AAP,Colloquium">2024.07. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Australasian Association of Philosophy, Perth, WA, Australia.</p>
         <p data-tag="WYSSP,Colloquium">2024.04. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, Colloquium, Workshop for Young Scholars in Science and Philosophy, Beijing, China.</p>
-        <p data-tag="PKU,Colloquium">2024.03. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, PKU Philosophy R&W, Beijing, China.</p>
+        <p data-tag="PKU">2024.03. <a href="#">Methodological Challenges in Consciousness Concept Research</a>, PKU Philosophy R&W, Beijing, China.</p>
       </section>
     </aside>
   </div>

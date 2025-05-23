@@ -182,15 +182,14 @@ title: ""
       </section>
     </aside>
 
-    <main class="center">
+   <main class="center">
   <section id="publications-section">
     <h2>Publications</h2>
     <div style="margin: 10px 0;" id="pub-tags"></div>
 
     <p data-tag="mind,consciousness,cognitive-science">
-      Yang, Z. (2025). 
       <a href="https://doi.org/10.1007/s11229-025-05058-8">Is rich phenomenology fragmented?</a> 
-      <em>Synthese</em>, 205, 228.
+      <em>Synthese</em>, 205, 228 (2025).
       <a href="https://philpapers.org/archive/YANIRP.pdf" style="font-size: 0.85em; font-style: italic; color: gray; margin-left: 5px;">[draft]</a>
     </p>
     

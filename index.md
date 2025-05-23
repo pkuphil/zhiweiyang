@@ -186,9 +186,9 @@ title: ""
       <section id="publications-section">
         <h2>Publications</h2>
         <div style="margin: 10px 0;" id="pub-tags"></div>
-        <p data-tag="mind,consciousness,cognitive-science">forth. <a href="#">Is Rich Phenomenology Fragmented?</a> <em>Synthese</em>
-          <a href="https://philpapers.org/archive/YANIRP.pdf" style="font-size: 0.85em; font-style: italic; color: gray; margin-left: 5px;">[draft]</a>.
-        </p>
+        <p data-tag="mind,consciousness,cognitive-science">Yang, Z. Is rich phenomenology fragmented?. <em>Synthese</em> 205, 228 (2025). https://doi.org/10.1007/s11229-025-05058-8
+  <a href="https://philpapers.org/archive/YANIRP.pdf" style="font-size: 0.85em; font-style: italic; color: gray; margin-left: 5px;">[draft]</a>.
+</p>
         <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-left: 20px;">
           <strong>Abstract:</strong> Some philosophers argue that the content of iconic memory is conscious, called the Rich View. However, critics claim that only fragments of the content of iconic memory are conscious, called the Fragment View. Both sides cite different psychological experimental data to support their positions. Proponents of the Fragment View tend to assert that their view uniquely explains the data they rely on. The uniqueness of the Fragment View is challenged here. Newly introduced evidence suggests that the data supporting the Fragment View may also be compatible with the Rich View. Given the theoretical advantages of the Rich View in other respects, there are reasons to consider it the superior one.
         </p>

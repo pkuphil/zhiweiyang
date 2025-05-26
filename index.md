@@ -168,7 +168,7 @@ title: ""
         <h2>Language</h2>
         <p>
           Chinese (Native)<br>
-          English (Okay, IELTS 8.0)
+          English
         </p>
       </section>
 

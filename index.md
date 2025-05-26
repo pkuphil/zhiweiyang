@@ -167,7 +167,7 @@ title: ""
       <section>
         <h2>Language</h2>
         <p>
-          Chinese (Native)<br>
+          Chinese<br>
           English
         </p>
       </section>

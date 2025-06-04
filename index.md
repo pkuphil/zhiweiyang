@@ -226,7 +226,7 @@ title: ""
       <section>
         <h2>Talks</h2>
         <div style="margin: 10px 0;" id="right-tags"></div>
-        <p data-tag="CoRN">forth. <a href="#">New Object Theory and Illusion</a>, Eastern APA, Baltimore, MD, USA. </p>
+        <p data-tag="APA,Eastern APA">forth. <a href="#">New Object Theory and Illusion</a>, Eastern APA, Baltimore, MD, USA. </p>
         <p data-tag="CoRN">forth. <a href="#">Is Rich Phenomenology Fragmented?</a>, CoRN, Bangkok, Thailand. </p>
         <p data-tag="APA,Pacific APA,Colloquium">2025.04. <a href="#">Do Semantic Properties Involve the Future?</a>, Colloquium, Pacific APA, San Francisco, CA, USA.</p>
         <p data-tag="APA,Central APA,Colloquium">2025.02. <a href="#">Is Rich Phenomenology Fragmented?</a>, Colloquium, Central APA, Online.</p>

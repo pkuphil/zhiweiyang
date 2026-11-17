@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://pkuphil.github.io/ppkkuu/sitemap.xml
+Sitemap: https://pkuphil.github.io/zhiweiyang/sitemap.xml
